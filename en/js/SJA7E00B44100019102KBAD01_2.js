@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:1007px;\" coordsize=\"950,1007\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:1007px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA7E00B44100019102KBAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1007px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:380px;top:18px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>SELF-LOCKING NUT<br>10 x 1.25 mm<br>29 N·m (3.0 kgf·m, 22 lbf·ft)<br></b>Replace.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:380px;top:151px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DAMPER MOUNTING BASE<br></b>Check for deformation.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:380px;top:264px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DUST COVER PLATE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:789px;top:172px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>BUMP STOP PLATE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:790px;top:229px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>BUMP STOP<br></b>Check for weakness <br>and damage.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:3px;top:573px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DUST COVER<br></b>Check for bending and damage.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:408px;top:836px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DAMPER UNIT<br></b>Check for oil leaks, gas leaks, <br>and smooth operation.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:381px;top:92px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>WASHER<br></b>Check for deformation.<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

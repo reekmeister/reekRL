@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:991px;\" coordsize=\"950,991\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:991px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA9EF0D14300000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:991px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:515px;top:19px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>BRAKE BOOSTER<br><a href=\"javascript:CtsProc('0','000000000000116','i000')\"></b>Pushrod Clearance Adjustment,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000115','i000')\">Inspection,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000003133','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:607px;top:130px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>BRAKE SYSTEM INDICATOR<br><a href=\"javascript:CtsProc('0','000000000000129','i000')\"></b>Circuit Diagram,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000131','i000')\">Parking Brake Switch Test,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000130','i000')\">Brake Fluid Level Switch Test,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:533px;top:845px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>BRAKE PEDAL<br></b>Brake Pedal and Brake Pedal Position<br><a href=\"javascript:CtsProc('0','000000000000128','i000')\"> Switch Adjustment,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000127','i000')\">Replacement,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:682px;top:520px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>REAR BRAKE<br><a href=\"javascript:CtsProc('0','000000000000126','i000')\"></b>Pad Inspection and Replacement,<br></a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000120','i000')\">Disc Inspection,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000118','i000')\">Caliper Overhaul,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:598px;top:662px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>PARKING BRAKE<br><a href=\"javascript:CtsProc('0','000000000000107','i000')\"></b>Inspection and Adjustment,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000108','i000')\">Inspection,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000109','i000')\">Shoe Replacement,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000110','i000')\">Shoe Lining Break-in,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000111','i000')\">Cable Replacement,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:7px;top:540px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>MASTER CYLINDER<br><a href=\"javascript:CtsProc('0','000000000000112','i000')\"></b>Brake System Bleeding,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000123','i000')\">Replacement,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000124','i000')\">Inspection,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:252px;top:815px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>FRONT BRAKE<br><a href=\"javascript:CtsProc('0','000000000000125','i000')\"></b>Pad Inspection and Replacement,<br></a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000119','i000')\">Disc Inspection,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000117','i000')\">Caliper Overhaul,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:17px;top:962px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b></b>The illustration shows LHD type, RHD type is symmetrical.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:143px;top:664px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>BRAKE HOSE and LINE<br><a href=\"javascript:CtsProc('0','000000000000122','i000')\"></b>Inspection,</a><br> in the Shop Manual,<br> P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000121','i000')\">Brake Hose Replacement,<br></a><br> in the Shop Manual,<br> P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

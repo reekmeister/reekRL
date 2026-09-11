@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:783px;\" coordsize=\"950,783\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:783px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA9EERA14666351511MFAD02.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:783px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:121px;top:169px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>LOST MOTION<br>ASSEMBLY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:818px;top:741px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>INTAKE ROCKER<br>SHAFT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:113px;top:631px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>INTAKE ROCKER<br>ARM ASSEMBLY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:119px;top:314px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>ROCKER SHAFT<br>BRIDGE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:113px;top:500px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b></b>Do not remove<br>the circlips.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:114px;top:694px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>LOST MOTION<br>ASSEMBLY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:120px;top:81px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>EXHAUST ROCKER<br>SHAFT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:346px;top:41px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>EXHAUST ROCKER<br>ARM ASSEMBLY A<br></b>Letter A is stamped<br>on rocker arm.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:747px;top:41px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>EXHAUST ROCKER<br>ARM ASSEMBLY B<br></b>Letter B is stamped<br>on rocker arm.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:820px;top:586px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>ROCKER SHAFT<br>HOLDER<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

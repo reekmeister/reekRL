@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group3\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:1103px;\" coordsize=\"950,1103\">");
+write("<v:rect id=\"rect3\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:1103px;\">");
+write("<img id=\"img3\" name=\"PrtImgId\" src=\"../img/SJA7E30A18300000000DAAD03.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1103px;border-color:#ffffff\">");
+write("<p id=\"p3_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:131px;top:107px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>MAIN BEARING CAPS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:120px;top:381px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>MAIN BEARINGS<br><a href=\"javascript:CtsProc('0','000000000000068','iR01')\"></b>Oil Clearance,</a><br><a href=\"javascript:CtsProc('0','000000000000068','iR02')\">Selection,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:667px;top:278px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>CRANKSHAFT<br><a href=\"javascript:CtsProc('0','000000000000066','i000')\"></b>End Play,</a><br><a href=\"javascript:CtsProc('0','000000000000067','i000')\">Runout,</a><br><a href=\"javascript:CtsProc('0','000000000000067','i000')\">Out-of-Round,</a><br><a href=\"javascript:CtsProc('0','000000000001390','i000')\">Removal,</a><br><a href=\"javascript:CtsProc('0','000000000001391','i000')\">Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:665px;top:418px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>THRUST WASHERS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:518px;top:1058px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DRAIN BOLT<br><a href=\"javascript:CtsProc('0','000000000000065','i000')\"></b>Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:665px;top:481px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DOWEL PINS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:666px;top:534px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>OIL JET BOLTS<br><a href=\"javascript:CtsProc('0','000000000000077','i000')\"></b>Inspection,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:666px;top:601px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>OIL JETS<br></b>Do not reuse oil jet,<br>after removing it.<br></nobr>");
+write("</p>");
+write("<p id=\"p3_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:36px;top:741px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DRAIN BOLT<br><a href=\"javascript:CtsProc('0','000000000000065','i000')\"></b>Installation,</a><br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

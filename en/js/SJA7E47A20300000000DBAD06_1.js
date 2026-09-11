@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group6\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:607px;\" coordsize=\"950,607\">");
+write("<v:rect id=\"rect6\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:607px;\">");
+write("<img id=\"img6\" name=\"PrtImgId\" src=\"../img/SJA7E47A20300000000DBAD06.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:607px;border-color:#ffffff\">");
+write("<p id=\"p6_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:114px;top:20px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>33P CONNECTOR<br>(1)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:404px;top:21px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>33P CONNECTOR<br>(2)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:717px;top:21px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>23P CONNECTOR<br>(3)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:386px;top:192px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>THROTTLE ACTUATOR<br>CONTROL MODULE<br>(5)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:115px;top:192px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>13P CONNECTOR<br>(4)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:730px;top:193px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>PCM C (6)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:416px;top:364px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>PCM B (8)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:113px;top:364px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>17P CONNECTOR<br>(7)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:736px;top:364px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>PCM A (9)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:1px;top:540px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b></b>NOTE:<br>· Connector with male terminals (double outline): view from terminal side<br>· Connector with female terminals (single outline): view from wire side<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

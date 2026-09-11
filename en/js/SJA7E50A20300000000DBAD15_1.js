@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group15\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:831px;\" coordsize=\"950,831\">");
+write("<v:rect id=\"rect15\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:831px;\">");
+write("<img id=\"img15\" name=\"PrtImgId\" src=\"../img/SJA7E50A20300000000DBAD15.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:831px;border-color:#ffffff\">");
+write("<p id=\"p15_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:388px;top:249px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>1<br></b></nobr>");
+write("</p>");
+write("<p id=\"p15_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:572px;top:295px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p15_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:755px;top:392px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>3<br></b></nobr>");
+write("</p>");
+write("<p id=\"p15_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:794px;top:452px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>4<br></b></nobr>");
+write("</p>");
+write("<p id=\"p15_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:568px;top:793px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>5<br></b></nobr>");
+write("</p>");
+write("<p id=\"p15_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:366px;top:725px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>6<br></b></nobr>");
+write("</p>");
+write("<p id=\"p15_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:159px;top:601px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>7<br></b></nobr>");
+write("</p>");
+write("<p id=\"p15_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:213px;top:663px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>LEFT SIDE<br>WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

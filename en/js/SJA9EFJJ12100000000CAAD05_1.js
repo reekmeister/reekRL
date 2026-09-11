@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:542px;\" coordsize=\"950,542\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:542px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA9EFJJ12100000000CAAD05.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:542px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:435px;top:178px;font-weight:normal;font-size:6.81pt;\">");
+write("<nobr><b>B−CAN (33.33 kbps)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:501px;top:345px;font-weight:normal;font-size:6.81pt;\">");
+write("<nobr><b>(K−LINE)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:569px;top:256px;font-weight:normal;font-size:6.81pt;\">");
+write("<nobr><b>MICU<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:692px;top:28px;font-weight:normal;font-size:6.81pt;\">");
+write("<nobr><b>: CAN line<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:212px;top:178px;font-weight:normal;font-size:6.81pt;\">");
+write("<nobr><b>F−CAN (500 kbps)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:355px;top:506px;font-weight:normal;font-size:6.81pt;\">");
+write("<nobr><b>HDS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:163px;top:256px;font-weight:normal;font-size:6.81pt;\">");
+write("<nobr><b>PCM<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:338px;top:421px;font-weight:normal;font-size:6.81pt;\">");
+write("<nobr><b>DATA LINK <br>CONNECTOR<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

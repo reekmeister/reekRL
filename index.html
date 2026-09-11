@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Honda Legend KB1 / KB2 workshop manual search and viewer">
+<title>Honda Legend KB1 / KB2 Service Manual</title>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <p class="eyebrow">2007–2010 • KB1 / KB2</p>
+      <h1>Honda Legend<br><span>Service Manual</span></h1>
+      <p class="sub">A modern index and reader for the bundled workshop and body repair manual pages.</p>
+    </div>
+    <a class="legacy-btn" href="HONDAESM.HTML">Open original manual</a>
+  </div>
+</header>
+
+<main class="shell">
+  <section class="search-card">
+    <div class="search-row">
+      <label class="searchbox" aria-label="Search manual">
+        <span>⌕</span><input id="q" type="search" autocomplete="off" placeholder="Search procedures, systems, symptoms…">
+      </label>
+      <button id="clear" class="ghost">Clear</button>
+    </div>
+    <div class="filters">
+      <select id="model"><option value="">All models</option></select>
+      <select id="year"><option value="">All years</option></select>
+      <select id="type"><option value="">All manual types</option></select>
+      <select id="section"><option value="">All sections</option></select>
+    </div>
+    <div class="stats"><strong id="count">0</strong><span> matching procedures</span><span class="dot">•</span><span id="editionSummary"></span></div>
+  </section>
+
+  <section class="quick">
+    <button data-quick="engine">Engine</button>
+    <button data-quick="brake">Brakes</button>
+    <button data-quick="suspension">Suspension</button>
+    <button data-quick="electrical">Electrical</button>
+    <button data-quick="navigation">Navigation</button>
+    <button data-quick="air conditioning">A/C</button>
+    <button data-quick="troubleshooting">Troubleshooting</button>
+  </section>
+
+  <section id="results" class="results" aria-live="polite"></section>
+  <nav id="pager" class="pager" aria-label="Search pages"></nav>
+</main>
+
+<footer class="footer">Bundled manual files are preserved under <code>en/</code>. The index is an added convenience layer.</footer>
+<script src="data/manual-index.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

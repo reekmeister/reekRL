@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group6\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:543px;\" coordsize=\"950,543\">");
+write("<v:rect id=\"rect6\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:543px;\">");
+write("<img id=\"img6\" name=\"PrtImgId\" src=\"../img/SJA7E50A20300000000DBAD06.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:543px;border-color:#ffffff\">");
+write("<p id=\"p6_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:553px;top:159px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>PSP SWITCH<br>(Without EPS)<br>(7)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:89px;top:312px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>12P CONNECTOR<br>(9)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:51px;top:23px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>DRIVER'S UNDER-DASH<br>FUSE/RELAY BOX<br>(1)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:760px;top:159px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>24P CONNECTOR<br>(8)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:550px;top:23px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>APP SENSOR<br>(3)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:732px;top:23px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>AUXILIARY UNDER-DASH<br>FUSE HOLDER 1<br>(4)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:308px;top:23px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>DRIVER'S UNDER-DASH<br>FUSE/RELAY BOX<br>(2)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:50px;top:160px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>AUXILIARY UNDER-DASH<br>FUSE HOLDER 1<br>(5)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:306px;top:160px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>AUXILIARY UNDER-DASH<br>RELAY HOLDER<br>(STARTER CUT RELAY 1)<br>(6)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:2px;top:474px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b></b>NOTE:<br>· Connector with male terminals (double outline): view from terminal side<br>· Connector with female terminals (single outline): view from wire side<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

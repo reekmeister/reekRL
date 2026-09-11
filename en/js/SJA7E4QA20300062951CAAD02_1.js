@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:543px;\" coordsize=\"950,543\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:543px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA7E4QA20300062951CAAD02.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:543px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:757px;top:45px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>To BRAKE<br>BOOSTER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:669px;top:98px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>To ENGINE<br>MOUNT CONTROL<br>SOLENOID VALVE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:700px;top:166px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>EVAPORATIVE EMISSION (EVAP)<br>CANISTER PURGE VALVE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:793px;top:309px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>To EVAPORATIVE<br>EMISSION (EVAP)<br>CANISTER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:677px;top:464px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>To RADIATOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:371px;top:483px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>MANIFOLD<br>ABSOLUTE PRESSURE<br>(MAP) SENSOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:83px;top:488px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>FRONT OF<br>VEHICLE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:23px;top:113px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>To CYLINDER<br>HEAD<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

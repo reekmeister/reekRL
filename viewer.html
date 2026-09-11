@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Manual Viewer</title>
+<style>
+html,body{height:100%;margin:0;background:#0b1118;color:#eef4fb;font-family:Inter,system-ui,Segoe UI,sans-serif}body{display:flex;flex-direction:column}.bar{height:52px;display:flex;align-items:center;gap:12px;padding:0 16px;background:#111a24;border-bottom:1px solid #263545;flex:none}.bar a,.bar button{color:#eef4fb;background:#182433;border:1px solid #314354;border-radius:8px;padding:8px 12px;text-decoration:none;cursor:pointer}.title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;opacity:.85;flex:1}.viewer{border:0;width:100%;flex:1;background:white} .hint{font-size:12px;opacity:.6}
+</style></head>
+<body>
+<div class="bar"><a id="back" href="index.html">← Search</a><button id="open">Open page</button><div id="title" class="title">Manual page</div><span class="hint">KB1 / KB2</span></div>
+<iframe id="frame" class="viewer" title="Honda Legend manual"></iframe>
+<script>
+const qs=new URLSearchParams(location.search); const page=qs.get('page') || 'en/html/000000000000001.html'; const edition=qs.get('edition') || '';
+const frame=document.getElementById('frame'), title=document.getElementById('title'), open=document.getElementById('open');
+const target=page + (edition ? '?' + encodeURIComponent(edition) : '');
+frame.src=target; open.onclick=()=>location.href=page;
+// Functions expected by the legacy pages. Keep navigation inside this viewer.
+window.Cts=function(key,anc){ let url='en/html/'+key+'.html'; if(anc) url += '#'+anc.replace(/^#/, ''); frame.src=url + (edition ? '?' + encodeURIComponent(edition) : ''); };
+window.Prt=function(){ window.print(); };
+window.Jmp=function(anc){ if(frame.contentWindow) frame.contentWindow.location.hash=anc; };
+window.Scl=function(){};
+frame.addEventListener('load',()=>{ try { const t=frame.contentDocument.title.replace(/^\([^)]*\)\s*/, '').trim(); if(t) title.textContent=t; } catch(e){} });
+</script></body></html>

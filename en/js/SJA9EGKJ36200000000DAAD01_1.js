@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:1103px;\" coordsize=\"950,1103\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:1103px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA9EGKJ36200000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1103px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:2px;top:332px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>INTERFACE DIAL<br><a href=\"javascript:CtsProc('0','000000000003804','i000')\"></b>Connector Inputs and Outputs,<br></a><br><a href=\"javascript:CtsProc('0','000000000000599','i000')\">Removal/Installation,<br></a><br> in the Shop Manual,<br> P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:792px;top:60px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>PCM<br>(Vehicle Speed Pulse)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:783px;top:486px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>GPS ANTENNA<br><a href=\"javascript:CtsProc('0','000000000000598','i000')\"></b>Removal/Installation,<br></a><br> in the Shop Manual,<br> P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:130px;top:847px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>NAVIGATION SERVICE<br>CHECK CONNECTOR<br><a href=\"javascript:CtsProc('0','000000000000596','i000')\"></b>Forced starting of the  display,<br></a><br> in the Shop Manual,<br> P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:693px;top:868px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>REARVIEW CAMERA<br><a href=\"javascript:CtsProc('0','000000000003806','i000')\"></b>Connector Inputs and Outputs,<br></a><br><a href=\"javascript:CtsProc('0','000000000002873','i000')\">Removal/Installation,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:391px;top:950px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>NAVIGATION UNIT<br><a href=\"javascript:CtsProc('0','000000000003805','i000')\"></b>Connector Inputs and Outputs,<br></a><br><a href=\"javascript:CtsProc('0','000000000000600','i000')\">Removal/Installation,<br></a><br> in the Shop Manual,<br> P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:1px;top:1074px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b></b>LHD model is shown, RHD model is similar.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:529px;top:17px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>NAVIGATION DISPLAY UNIT<br><a href=\"javascript:CtsProc('0','000000000003803','i000')\"></b>Connector Inputs and Outputs,<br></a><br><a href=\"javascript:CtsProc('0','000000000000597','i000')\">Removal/Installation,<br></a><br> in the Shop Manual,<br> P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

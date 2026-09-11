@@ -1,0 +1,613 @@
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="author" content="HONDA MOTOR Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>(
+SJA7E00J32112800000MBAT00
+)</title>
+<script>
+<!--
+var bufCookie = new Array;
+var strKey,strVal;
+var nPos=0;
+var strPara = location.href.split("?")[1];
+if((typeof(strPara) == "undefined") || (strPara == null)){
+	bufCookie = document.cookie.split(";");
+	while (nPos < bufCookie.length) {
+		strKey = bufCookie[nPos].split("=")[0];
+		strVal = bufCookie[nPos].split("=")[1];
+		if(strKey == "CurrentYearType"){
+			strPara = strVal;
+			break;
+		}
+		nPos++;
+	}
+}
+if((typeof(strPara) != "undefined") && (strPara != null)){
+	document.title = strPara + document.title;
+	document.cookie = "CurrentYearType="+strPara+";";
+	var strUrl = location.href.split("?")[0];
+	if(strUrl != location.href) {
+		location.replace(strUrl);
+	}
+}
+function CtsProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Cts(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Cts(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Cts(Key,strData);
+	}
+	else {
+		parent.Cts(Key,strData);
+	}
+}
+
+function PrtProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Prt(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Prt(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Prt(Key,strData);
+	}
+	else {
+		parent.Prt(Key,strData);
+	}
+}
+-->
+</script>
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<style>
+	v\:*	{ behavior: url(#default#VML); }
+	.drag	{ position: relative; cursor:   hand; }
+</style>
+</head>
+<script>
+<!--
+var load_flag = false;
+function onLoadProc() {
+	parent.Old(this);
+	load_flag = true;
+}
+-->
+</script>
+<script src="../js/PrinterSize.js"></script>
+<script src="../js/StandardPrintFunc.js"></script>
+<body onload="javascript:onLoadProc()" style="font-family:sans-serif;">
+<div xmlns:v="urn:schemas-microsoft-com:vml">
+<div class="top_title">
+Adaptive Front Lighting Control Unit Learning Procedure
+</div>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iR01">
+</a>
+<div class="procedure_sub_title">
+<b>
+When the adaptive front lighting control unit is replaced (a brand new adaptive front lighting control unit is installed).
+</b>
+</div>
+<div>
+NOTE: If the AFS indicator is blinking, check the DTCs.
+</div>
+<a name="i010">
+</a>
+<ol>
+<li value="1">
+<div>
+Remove all of the baggage from the vehicle.
+</div>
+</li>
+</ol>
+<a name="i020">
+</a>
+<ol>
+<li value="2">
+<div>
+Turn the ignition switch ON (II).
+</div>
+</li>
+</ol>
+<a name="i030">
+</a>
+<ol>
+<li value="3">
+<div>
+Make sure the AFS indicator does not turn off. (If the AFS indicator turns off, the adaptive front lighting control unit is not a new or learned previously unit.)
+</div>
+</li>
+</ol>
+<a name="i040">
+</a>
+<ol>
+<li value="4">
+<div>
+Turn the ignition switch OFF and then back ON (II).
+</div>
+</li>
+</ol>
+<a name="i050">
+</a>
+<ol>
+<li value="5">
+<div>
+Within 5 seconds, turn the headlight switch ON/OFF or to passing three times.
+</div>
+</li>
+</ol>
+<a name="i060">
+</a>
+<ol>
+<li value="6">
+<div>
+Make sure the AFS indicator blinks in a 1 second cycle. (If the indicator does not blink, return to 
+<a href="javascript:parent.Jmp('i020')">Step 2
+</a>
+.)
+</div>
+</li>
+</ol>
+<a name="i070">
+</a>
+<ol>
+<li value="7">
+<div>
+Turn the headlights ON, and make sure the headlights move up and down, and then left and right.
+</div>
+</li>
+</ol>
+<a name="i080">
+</a>
+<ol>
+<li value="8">
+<div>
+Turn the steering wheel 90 degrees or more from the center position to left and right position.
+</div>
+</li>
+</ol>
+<a name="i090">
+</a>
+<ol>
+<li value="9">
+<div>
+Test-drive, with only the driver in the vehicle, in a straight line for 30 m (98.4 feet) at 25 km/h (16 mph) or more.
+</div>
+</li>
+</ol>
+<a name="i100">
+</a>
+<ol>
+<li value="10">
+<div>
+Make sure the AFS indicator turns off. (If the indicator does not turn off, repeat the 
+<a href="javascript:parent.Jmp('i080')">Step 8
+</a>
+ and 9.)
+</div>
+</li>
+</ol>
+<a name="i110">
+</a>
+<ol>
+<li value="11">
+<div>
+<a href="javascript:CtsProc('0','000000000000534','i000')">
+Adjust the headlights.
+</a>
+</div>
+</li>
+</ol>
+<a name="iR02">
+</a>
+<div class="procedure_sub_title">
+<b>
+When the adaptive front lighting control unit is replaced (a known-good adaptive front lighting control unit is installed).
+</b>
+</div>
+<div>
+NOTE: If the AFS indicator is blinking, check the DTCs.
+</div>
+<a name="i210">
+</a>
+<ol>
+<li value="1">
+<div>
+Remove all of the baggage from the vehicle.
+</div>
+</li>
+</ol>
+<a name="i220">
+</a>
+<ol>
+<li value="2">
+<div>
+Connect the HDS to the data link connector, and short the SCS line.
+</div>
+</li>
+</ol>
+<a name="i230">
+</a>
+<ol>
+<li value="3">
+<div>
+Turn the ignition switch ON (II).
+</div>
+</li>
+</ol>
+<a name="i240">
+</a>
+<ol>
+<li value="4">
+<div>
+Make sure the AFS indicator turns off after 2 seconds. (If the AFS indicator does not turn off, the adaptive front lighting control unit must be brand new.)
+</div>
+</li>
+</ol>
+<a name="i250">
+</a>
+<ol>
+<li value="5">
+<div>
+Turn the ignition switch OFF and then back ON (II).
+</div>
+</li>
+</ol>
+<a name="i260">
+</a>
+<ol>
+<li value="6">
+<div>
+Within 5 seconds, turn the headlight switch ON/OFF or to passing for three times.
+</div>
+</li>
+</ol>
+<a name="i270">
+</a>
+<ol>
+<li value="7">
+<div>
+Turn the headlights ON, and make sure the headlights move up and down, and then left and right. (If the headlights do not move, return to 
+<a href="javascript:parent.Jmp('i020')">Step 2
+</a>
+.)
+</div>
+</li>
+</ol>
+<a name="i280">
+</a>
+<ol>
+<li value="8">
+<div>
+Release the SCS short command with the HDS.
+</div>
+</li>
+</ol>
+<a name="i290">
+</a>
+<ol>
+<li value="9">
+<div>
+Turn the steering wheel 90 degrees or more from the center position to left and right position.
+</div>
+</li>
+</ol>
+<a name="i300">
+</a>
+<ol>
+<li value="10">
+<div>
+With the HDS communicating with the BODY ELECTRICAL, test-drive, with only the driver in the vehicle, in a straight line for 30 m (98.4 feet) at 25 km/h (16 mph) or more.
+</div>
+</li>
+</ol>
+<a name="i310">
+</a>
+<ol>
+<li value="11">
+<div>
+Select the AFS from the HDS, and enter the DATA LIST.
+</div>
+</li>
+</ol>
+<a name="i320">
+</a>
+<ol>
+<li value="12">
+<div>
+Make sure the STEERING CENTER LEARN information in the DATA LIST is finished. (If the learn is not completed, repeat the 
+<a href="javascript:parent.Jmp('i090')">Step 9
+</a>
+ and 10.)
+</div>
+</li>
+</ol>
+<a name="i330">
+</a>
+<ol>
+<li value="13">
+<div>
+<a href="javascript:CtsProc('0','000000000000534','i000')">
+Adjust the headlights.
+</a>
+</div>
+</li>
+</ol>
+<a name="iR03">
+</a>
+<div class="procedure_sub_title">
+<b>
+When the headlight leveling sensor is removed or replaced, or the leveling sensor link is disassembled.
+</b>
+</div>
+<div>
+NOTE: If the AFS indicator is blinking, check the DTCs.
+</div>
+<a name="i410">
+</a>
+<ol>
+<li value="1">
+<div>
+Remove all of the baggage from the vehicle.
+</div>
+</li>
+</ol>
+<a name="i420">
+</a>
+<ol>
+<li value="2">
+<div>
+Connect the HDS to the data link connector, and short the SCS line.
+</div>
+</li>
+</ol>
+<a name="i430">
+</a>
+<ol>
+<li value="3">
+<div>
+Turn the ignition switch ON (II).
+</div>
+</li>
+</ol>
+<a name="i440">
+</a>
+<ol>
+<li value="4">
+<div>
+Make sure the AFS indicator turns off after 2 seconds. (If the AFS indicator stays on and does not turn off, the AFS control unit has been replaced with a brand new control unit.)
+</div>
+</li>
+</ol>
+<a name="i450">
+</a>
+<ol>
+<li value="5">
+<div>
+Turn the ignition switch OFF and then back ON (II).
+</div>
+</li>
+</ol>
+<a name="i460">
+</a>
+<ol>
+<li value="6">
+<div>
+Within 5 seconds, turn the headlight switch ON/OFF or to passing for three times.
+</div>
+</li>
+</ol>
+<a name="i470">
+</a>
+<ol>
+<li value="7">
+<div>
+Turn the headlights ON, and make sure the headlights move up and down. (If the headlights do not move, return to step 2.)
+</div>
+</li>
+</ol>
+<a name="i480">
+</a>
+<ol>
+<li value="8">
+<div>
+Release the SCS short command with the HDS.
+</div>
+</li>
+</ol>
+<a name="i490">
+</a>
+<ol>
+<li value="9">
+<div>
+<a href="javascript:CtsProc('0','000000000000534','i000')">
+Adjust the headlights.
+</a>
+</div>
+</li>
+</ol>
+<a name="iR04">
+</a>
+<div class="procedure_sub_title">
+<b>
+When the headlight is replaced, or when the adaptive front lighting gearbox is replaced.
+</b>
+</div>
+<a name="i610">
+</a>
+<ol>
+<li value="1">
+<div>
+Remove the baggage if it is heavy.
+</div>
+</li>
+</ol>
+<a name="i620">
+</a>
+<ol>
+<li value="2">
+<div>
+Turn the ignition switch ON (II).
+</div>
+</li>
+</ol>
+<a name="i630">
+</a>
+<ol>
+<li value="3">
+<div>
+Turn the headlights ON.
+</div>
+</li>
+</ol>
+<a name="i640">
+</a>
+<ol>
+<li value="4">
+<div>
+Connect the HDS to the data link connector.
+</div>
+</li>
+</ol>
+<a name="i650">
+</a>
+<ol>
+<li value="5">
+<div>
+Select the AFS from the HDS, and enter the FUNCTION TEST.
+</div>
+</li>
+</ol>
+<a name="i660">
+</a>
+<ol>
+<li value="6">
+<div>
+Make sure both headlights swing about 20 degrees left and right by the forced operation with the HDS.
+</div>
+</li>
+</ol>
+<a name="i670">
+</a>
+<ol>
+<li value="7">
+<div>
+Make sure both headlights move up and down by the forced operation with the HDS.
+</div>
+</li>
+</ol>
+<a name="i680">
+</a>
+<ol>
+<li value="8">
+<div>
+Check the combination light switch.
+</div>
+</li>
+</ol>
+<a name="i690">
+</a>
+<ol>
+<li value="9">
+<div>
+<a href="javascript:CtsProc('0','000000000000534','i000')">
+Adjust the headlights.
+</a>
+</div>
+</li>
+</ol>
+<a name="iR05">
+</a>
+<div class="procedure_sub_title">
+<b>
+When the AFS OFF switch or combination light switch is replaced.
+</b>
+</div>
+<div>
+NOTE: If the AFS indicator is blinking, check the DTCs.
+</div>
+<a name="i810">
+</a>
+<ol>
+<li value="1">
+<div>
+Turn the ignition switch ON (II).
+</div>
+</li>
+</ol>
+<a name="i820">
+</a>
+<ol>
+<li value="2">
+<div>
+Turn the headlights ON.
+</div>
+</li>
+</ol>
+<a name="i830">
+</a>
+<ol>
+<li value="3">
+<div>
+Turn the AFS OFF switch OFF, and make sure the AFS indicator comes on. (If the AFS indicator does not come on, check for an open in the wire or poor connections at the switch connector.)
+</div>
+</li>
+</ol>
+<a name="iR06">
+</a>
+<div class="procedure_sub_title">
+<b>
+When an HID unit or HID bulb is replaced.
+</b>
+</div>
+<a name="i910">
+</a>
+<ol>
+<li value="1">
+<div>
+Turn the combination light switch ON, and make sure the headlights come on.
+</div>
+</li>
+</ol>
+<a name="i920">
+</a>
+<ol>
+<li value="2">
+<div>
+<a href="javascript:CtsProc('0','000000000000534','i000')">
+If a headlight was removed, adjust the headlights.
+</a>
+</div>
+</li>
+</ol>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group3\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:475px; height:320px;\" coordsize=\"475,320\">");
+write("<v:rect id=\"rect3\" name=\"PrtRectId\"class=\"drag\"  style=\"width:475px;height:320px;\">");
+write("<img id=\"img3\" name=\"PrtImgId\" src=\"../img/SJA7E00H46200053401KBAD12.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:320px;border-color:#ffffff\">");
+write("<p id=\"p3_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:326px;top:62px;font-weight:normal;font-size:9.20pt;\">");
+write("<nobr><b>LOWER ANCHOR <br>BOLT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:6px;top:15px;font-weight:normal;font-size:9.20pt;\">");
+write("<nobr><b>TOOTHED LOCK <br>WASHER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:197px;top:253px;font-weight:normal;font-size:9.20pt;\">");
+write("<nobr><b>COLLAR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:113px;top:62px;font-weight:normal;font-size:9.20pt;\">");
+write("<nobr><b>WASHER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:68px;top:291px;font-weight:normal;font-size:9.20pt;\">");
+write("<nobr><b>SPRING WASHER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:247px;top:291px;font-weight:normal;font-size:9.20pt;\">");
+write("<nobr><b>LOWER ANCHOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:318px;top:253px;font-weight:normal;font-size:9.20pt;\">");
+write("<nobr><b>BUSHING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:26px;top:253px;font-weight:normal;font-size:9.20pt;\">");
+write("<nobr><b>COLLARS<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

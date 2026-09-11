@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group2\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:527px;\" coordsize=\"950,527\">");
+write("<v:rect id=\"rect2\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:527px;\">");
+write("<img id=\"img2\" name=\"PrtImgId\" src=\"../img/SJA7E30J54300000000DAAD02.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:527px;border-color:#ffffff\">");
+write("<p id=\"p2_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:574px;top:423px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>WINDSHIELD WIPER ARMS and LINKAGE<br><a href=\"javascript:CtsProc('0','000000000000669','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p2_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:813px;top:45px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>UNDER-HOOD<br>FUSE/RELAY BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:553px;top:473px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>WINDSHIELD WIPER MOTOR<br><a href=\"javascript:CtsProc('0','000000000000668','i000')\"></b>Test,</a><br><a href=\"javascript:CtsProc('0','000000000000669','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p2_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:559px;top:278px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>RELAY CONTROL MODULE<br>(Built into the under-hood fuse/relay box)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:675px;top:237px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>WINDSHIELD WIPER MOTOR RELAY<br><a href=\"javascript:CtsProc('0','000000000002244','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p2_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:30px;top:259px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>RAIN SENSOR<br><a href=\"javascript:CtsProc('0','000000000001743','i000')\"></b>Input Test,<br></a><br><a href=\"javascript:CtsProc('0','000000000000660','i000')\">Replacement,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p2_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:2px;top:379px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>COMBINATION SWITCH<br>CONTROL UNIT<br>(Built into the<br>combination light switch)<br><a href=\"javascript:CtsProc('0','000000000001265','i000')\"></b>Input Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p2_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:83px;top:473px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>WIPER/WASHER SWITCH<br><a href=\"javascript:CtsProc('0','000000000001996','i000')\"></b>Input Test,</a><br><a href=\"javascript:CtsProc('0','000000000001266','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

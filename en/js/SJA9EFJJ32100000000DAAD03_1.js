@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group3\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:799px;\" coordsize=\"950,799\">");
+write("<v:rect id=\"rect3\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:799px;\">");
+write("<img id=\"img3\" name=\"PrtImgId\" src=\"../img/SJA9EFJJ32100000000DAAD03.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:799px;border-color:#ffffff\">");
+write("<p id=\"p3_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:703px;top:104px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>HIGH BEAM INDICATOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:628px;top:44px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>LIGHTS-ON INDICATOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:213px;top:46px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>REAR FOG LIGHT INDICATOR <br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:528px;top:695px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>BRAKE PEDAL <br>POSITION SWITCH<br><a href=\"javascript:CtsProc('0','000000000000531','i000')\"></b>Test,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000128','i000')\">Replacement,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p3_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:162px;top:696px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>COMBINATION LIGHT SWITCH<br><a href=\"javascript:CtsProc('0','000000000001065','i000')\"></b>Test,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000001065','i000')\">Replacement,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p3_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:388px;top:17px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>FRONT FOG LIGHT INDICATOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:11px;top:592px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>COMBINATION SWITCH<br>CONTROL UNIT<br>(Built into the wiper/washer switch)<br><a href=\"javascript:CtsProc('0','000000000003445','i000')\"></b>Input Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:11px;top:592px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>COMBINATION SWITCH<br>CONTROL UNIT<br>(Built into the wiper/washer switch)<br><a href=\"javascript:CtsProc('0','000000000003445','i000')\"></b>Input Test,</a><br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

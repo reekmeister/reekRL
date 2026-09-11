@@ -1,0 +1,380 @@
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="author" content="HONDA MOTOR Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>(
+SJA7E00J46643400000FEAT00
+)</title>
+<script>
+<!--
+var bufCookie = new Array;
+var strKey,strVal;
+var nPos=0;
+var strPara = location.href.split("?")[1];
+if((typeof(strPara) == "undefined") || (strPara == null)){
+	bufCookie = document.cookie.split(";");
+	while (nPos < bufCookie.length) {
+		strKey = bufCookie[nPos].split("=")[0];
+		strVal = bufCookie[nPos].split("=")[1];
+		if(strKey == "CurrentYearType"){
+			strPara = strVal;
+			break;
+		}
+		nPos++;
+	}
+}
+if((typeof(strPara) != "undefined") && (strPara != null)){
+	document.title = strPara + document.title;
+	document.cookie = "CurrentYearType="+strPara+";";
+	var strUrl = location.href.split("?")[0];
+	if(strUrl != location.href) {
+		location.replace(strUrl);
+	}
+}
+function CtsProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Cts(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Cts(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Cts(Key,strData);
+	}
+	else {
+		parent.Cts(Key,strData);
+	}
+}
+
+function PrtProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Prt(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Prt(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Prt(Key,strData);
+	}
+	else {
+		parent.Prt(Key,strData);
+	}
+}
+-->
+</script>
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<style>
+	v\:*	{ behavior: url(#default#VML); }
+	.drag	{ position: relative; cursor:   hand; }
+</style>
+</head>
+<script>
+<!--
+var load_flag = false;
+function onLoadProc() {
+	parent.Old(this);
+	load_flag = true;
+}
+-->
+</script>
+<script src="../js/PrinterSize.js"></script>
+<script src="../js/StandardPrintFunc.js"></script>
+<body onload="javascript:onLoadProc()" style="font-family:sans-serif;">
+<div xmlns:v="urn:schemas-microsoft-com:vml">
+<div class="top_title">
+Keyless/Power Door Locks/Security System Function Test
+</div>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iS01">
+</a>
+<div class="procedure_sub_title">
+<b>
+Ultrasonic sensor and internal battery of alarm control siren
+</b>
+</div>
+<a name="i010">
+</a>
+<ol>
+<li value="1">
+<div>
+Park the vehicle in the place where is no wind.
+</div>
+</li>
+</ol>
+<a name="i020">
+</a>
+<ol>
+<li value="2">
+<div>
+Make sure you have the anti-theft code for the radio and the navigation system, then write down the radio presets.
+</div>
+</li>
+</ol>
+<a name="i030">
+</a>
+<ol>
+<li value="3">
+<div>
+Open the driver's window.
+</div>
+</li>
+</ol>
+<a name="i040">
+</a>
+<ol>
+<li value="4">
+<div>
+Close all doors.
+</div>
+</li>
+</ol>
+<a name="i050">
+</a>
+<ol>
+<li value="5">
+<div>
+Lock the doors with the transmitter or the key cylinder.
+</div>
+</li>
+</ol>
+<a name="i060">
+</a>
+<ol>
+<li value="6">
+<div>
+Wait 25 seconds to arm the security alarm system, and make sure the security indicator blinks.
+</div>
+</li>
+</ol>
+<a name="i070">
+</a>
+<ol>
+<li value="7">
+<div>
+Put your hand into the cabin from the driver's window.
+</div>
+<ul type="disc">
+<li>
+<div>
+If the siren sounds and hazard warning lights flash, go to 
+<a href="javascript:parent.Jmp('i080')">Step 8
+</a>
+.
+</div>
+</li>
+<li>
+<div>
+If the siren doesn't sound and the hazard warning lights don't flash, 
+<a href="javascript:CtsProc('0','000000000000634','i000')">
+go to the ultra sonic sensor input test.
+</a>
+</div>
+</li>
+</ul>
+</li>
+</ol>
+<a name="i080">
+</a>
+<ol>
+<li value="8">
+<div>
+While the siren is sounding, open the hood.
+</div>
+</li>
+</ol>
+<a name="i090">
+</a>
+<ol>
+<li value="9">
+<div>
+Disconnect the battery terminals.
+</div>
+<ul type="disc">
+<li>
+<div>
+If the siren is still sounding, the internal battery is OK.
+</div>
+</li>
+<li>
+<div>
+If the siren turns off, the internal battery is faulty, replace the alarm control siren.
+</div>
+</li>
+</ul>
+</li>
+</ol>
+<a name="i100">
+</a>
+<ol>
+<li value="10">
+<div>
+After reconnecting the battery, enter the anti-theft code for the radio and the navigation system, then enter the customer's radio presets.
+</div>
+<div>
+NOTE:
+</div>
+<ul type="disc">
+<li>
+<div>
+The alarm control siren is self-powered system with its internal Ni-MH battery back-up. Even if the vehicle's battery voltage drops, the alarm control siren can work properly.
+</div>
+</li>
+<li>
+<div>
+If the lock knob is pushed before the door is closed, the buzzer sounds 1 time and the ultrasonic system doesn't work.
+</div>
+</li>
+</ul>
+</li>
+</ol>
+<a name="iS02">
+</a>
+<div class="procedure_sub_title">
+<b>
+Inclination sensor and internal battery of alarm control siren
+</b>
+</div>
+<a name="i210">
+</a>
+<ol>
+<li value="1">
+<div>
+Close all doors.
+</div>
+</li>
+</ol>
+<a name="i220">
+</a>
+<ol>
+<li value="2">
+<div>
+Make sure you have the anti-theft code for the radio and the navigation system, then write down the radio presets.
+</div>
+</li>
+</ol>
+<a name="i230">
+</a>
+<ol>
+<li value="3">
+<div>
+Look the doors with the transmitter or the key cylinder.
+</div>
+</li>
+</ol>
+<a name="i240">
+</a>
+<ol>
+<li value="4">
+<div>
+Wait 25 seconds to arm the security alarm system, and make sure the security indicator blinks.
+</div>
+</li>
+</ol>
+<a name="i250">
+</a>
+<ol>
+<li value="5">
+<div>
+Use the jack, raise the vehicle until the tyre is off the ground.
+</div>
+<ul type="disc">
+<li>
+<div>
+If the siren sounds and hazard warning lights flash, go to 
+<a href="javascript:parent.Jmp('i050')">Step 5
+</a>
+.
+</div>
+</li>
+<li>
+<div>
+If the siren doesn't sound and the hazard warning lights don't flash, 
+<a href="javascript:CtsProc('0','000000000000632','i000')">
+go to the inclination sensor input test.
+</a>
+</div>
+</li>
+</ul>
+</li>
+</ol>
+<a name="i260">
+</a>
+<ol>
+<li value="6">
+<div>
+While the siren is sounding, open the hood.
+</div>
+</li>
+</ol>
+<a name="i270">
+</a>
+<ol>
+<li value="7">
+<div>
+Disconnect the battery terminals.
+</div>
+<ul type="disc">
+<li>
+<div>
+If the siren is still sounding, the internal battery is OK.
+</div>
+</li>
+<li>
+<div>
+If the siren turns off, the internal battery is faulty, replace the alarm control siren.
+</div>
+</li>
+</ul>
+</li>
+</ol>
+<a name="i280">
+</a>
+<ol>
+<li value="8">
+<div>
+After reconnecting the battery, enter the anti-theft code for the radio and the navigation system, then enter the customer's radio presets.
+</div>
+<div>
+NOTE:
+</div>
+<ul type="disc">
+<li>
+<div>
+The alarm control siren is self-powered system with its internal Ni-MH battery back-up. Even if the vehicle's battery voltage drops, the alarm control siren can work properly.
+</div>
+</li>
+<li>
+<div>
+If the lock knob is pushed before the door is closed, the buzzer sounds 1 time and the ultrasonic system doesn't work.
+</div>
+</li>
+</ul>
+</li>
+</ol>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

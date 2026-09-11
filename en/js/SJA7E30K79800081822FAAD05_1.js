@@ -1,0 +1,19 @@
+with(document) {
+write("<v:group id=\"group2\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:475px; height:320px;\" coordsize=\"475,320\">");
+write("<v:rect id=\"rect2\" name=\"PrtRectId\"class=\"drag\"  style=\"width:475px;height:320px;\">");
+write("<img id=\"img2\" name=\"PrtImgId\" src=\"../img/SJA7E30K79800081822FAAD05.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:320px;border-color:#ffffff\">");
+write("<p id=\"p2_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:71px;top:33px;font-weight:normal;font-size:9.20pt;\">");
+write("<nobr><b>RIGHT SEARCH COIL SENSOR 2P CONNECTOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:130px;top:272px;font-weight:normal;font-size:9.20pt;\">");
+write("<nobr><b></b>Wire side of female terminals<br></nobr>");
+write("</p>");
+write("<p id=\"p2_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:121px;top:150px;font-weight:normal;font-size:9.20pt;\">");
+write("<nobr><b>RFL (BLK)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:278px;top:150px;font-weight:normal;font-size:9.20pt;\">");
+write("<nobr><b>RFH (YEL)<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

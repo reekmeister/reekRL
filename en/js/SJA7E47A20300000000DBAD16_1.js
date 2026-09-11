@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group16\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:575px;\" coordsize=\"950,575\">");
+write("<v:rect id=\"rect16\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:575px;\">");
+write("<img id=\"img16\" name=\"PrtImgId\" src=\"../img/SJA7E47A20300000000DBAD16.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:575px;border-color:#ffffff\">");
+write("<p id=\"p16_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:70px;top:21px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>12P CONNECTOR<br>(KG model, With ACC)<br>(1)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:722px;top:21px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>INERTIA<br>SWITCH (KG model)<br>(3)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:731px;top:326px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>FTP SENSOR<br>(KD model)<br>(9)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:387px;top:326px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>EVAP CANISTER<br>VENT SHUT VALVE<br>(KD model)<br>(8)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:343px;top:21px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>PASSENGER'S UNDER-DASH<br>FUSE/RELAY BOX<br>(2)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:36px;top:173px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>2P CONNECTOR<br>(KG model, Without ACC)<br>(4)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:385px;top:175px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>14P CONNECTOR<br>(5)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:723px;top:174px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>12P CONNECTOR<br>(KD model)<br>(6)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:58px;top:327px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>23P CONNECTOR<br>(7)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:2px;top:505px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b></b>NOTE:<br>· Connector with male terminals (double outline): view from terminal side<br>· Connector with female terminals (single outline): view from wire side<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

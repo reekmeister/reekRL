@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:735px;\" coordsize=\"950,735\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:735px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA7E40J54200000000DEAD03.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:735px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:102px;top:16px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>POWER TILT/TELESCOPIC <br>STEERING CONTROL UNIT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:243px;top:684px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>IMOES UNIT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:764px;top:567px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>HANDS FREE<br>TELEPHONE<br>CONTROL UNIT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:499px;top:641px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>PCM<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:434px;top:685px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>SRS UNIT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:17px;top:70px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>IMMOBILIZER CONTROL <br>UNIT-RECEIVER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:497px;top:75px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>E-PRETENSIONER UNIT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:700px;top:160px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>KEYLESS RECEIVER UNIT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:779px;top:508px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>THROTTLE ACTUATOR<br>CONTROL MODULE<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

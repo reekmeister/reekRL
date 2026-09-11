@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:475px; height:288px;\" coordsize=\"475,288\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:475px;height:288px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA9EGKJ36200000000FEAD03.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:288px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:356px;top:38px;font-weight:normal;font-size:8.33pt;\">");
+write("<nobr><b>Return<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:107px;top:38px;font-weight:normal;font-size:8.97pt;\">");
+write("<nobr><b>Select Diagnosis Items<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:162px;top:86px;font-weight:normal;font-size:8.97pt;\">");
+write("<nobr><b>Self- Diagnosis Mode<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:111px;top:109px;font-weight:normal;font-size:6.15pt;\">");
+write("<nobr><b>(Navi will check internal function. connections, etc.<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:93px;top:125px;font-weight:normal;font-size:6.15pt;\">");
+write("<nobr><b>Perform this test with vehicle stopped and engine running.)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:134px;top:157px;font-weight:normal;font-size:8.97pt;\">");
+write("<nobr><b>Detail Information &amp; Setting<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:137px;top:180px;font-weight:normal;font-size:6.15pt;\">");
+write("<nobr><b>(Individual Diagnostic screens to confirm<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:167px;top:196px;font-weight:normal;font-size:6.15pt;\">");
+write("<nobr><b>a specific diagnostic screen.)<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

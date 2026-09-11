@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:751px;\" coordsize=\"950,751\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:751px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA7E00D00060814731MAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:751px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:44px;top:106px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>TENSION PIN<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:350px;top:17px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>BACKING PLATE<br></b>Marked left and right.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:536px;top:191px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>ADJUSTER ASSEMBLY<br></b>Check ratchet teeth<br>for wear and damage.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:667px;top:252px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>UPPER RETURN SPRING<br></b>Check for weakness<br>and damage.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:742px;top:313px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>BRAKE SHOE<br></b>If brake shoes are to be<br>reused, mark and reassemble<br>in their original position.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:788px;top:637px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>RETAINER SPRING<br></b>Install securely on<br>tension pin.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:644px;top:698px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>PARKING BRAKE LEVER ASSEMBLY<br></b>Marked left and right.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:4px;top:348px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>FLANGE NUT<br>14 x 1.5 mm<br>98.1 N·m <br>(10.0 kgf·m, <br>72.3 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:312px;top:552px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>ANCHOR BOLT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:396px;top:653px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>LOWER RETURN SPRING<br></b>Check for weakness<br>and damage.<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

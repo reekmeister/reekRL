@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group5\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:1071px;\" coordsize=\"950,1071\">");
+write("<v:rect id=\"rect5\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:1071px;\">");
+write("<img id=\"img5\" name=\"PrtImgId\" src=\"../img/SJA9EFJJ46643400000DAAD05.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1071px;border-color:#ffffff\">");
+write("<p id=\"p5_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:631px;top:21px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>AUXILIARY UNDER-DASH<br>RELAY BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p5_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:268px;top:259px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>LEFT SUPER LOCKING LOCK RELAY<br></b>Wire colors: ORN, WHT,<br>PNK, BLK, and WHT<br><a href=\"javascript:CtsProc('0','000000000003438','i000')\">Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p5_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:10px;top:746px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>LEFT REAR SUPER<br>LOCKING ACTUATOR/<br>KNOB SWITCH<br><a href=\"javascript:CtsProc('0','000000000000629','i000')\"></b>Actuator Test,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000630','i000')\">Knob Switch Test,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000540','i000')\">Door Switch Test,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p5_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:682px;top:625px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DRIVER'S SUPER<br>LOCKING ACTUATOR/<br>KNOB SWITCH<br><a href=\"javascript:CtsProc('0','000000000000629','i000')\"></b>Actuator Test,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000630','i000')\">Knob Switch Test,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000540','i000')\">Door Switch Test,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p5_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:654px;top:783px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>FRONT PASSENGER'S<br>SUPER LOCKING ACTUATOR/<br>KNOB SWITCH<br><a href=\"javascript:CtsProc('0','000000000000629','i000')\"></b>Actuator Test,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000630','i000')\">Knob Switch Test,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000540','i000')\">Door Switch Test,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p5_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:614px;top:940px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>RIGHT REAR SUPER LOCKING ACTUATOR/<br>KNOB SWITCH<br><a href=\"javascript:CtsProc('0','000000000000629','i000')\"></b>Actuator Test,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000630','i000')\">Knob Switch Test,</a><br> in the Shop Manual, P/N 62SJA00B<br><a href=\"javascript:CtsProc('0','000000000000540','i000')\">Door Switch Test,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p5_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:182px;top:909px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>SUPER LOCKING UNLOCK RELAY<br></b>Wire colors: PNK, WHT,<br>BRN, BLK, and WHT<br><a href=\"javascript:CtsProc('0','000000000003438','i000')\">Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p5_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:317px;top:997px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>RIGHT SUPER LOCKING LOCK RELAY<br></b>Wire colors: RED, WHT,<br>RED, BLK, and WHT<br><a href=\"javascript:CtsProc('0','000000000003438','i000')\">Test,</a><br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

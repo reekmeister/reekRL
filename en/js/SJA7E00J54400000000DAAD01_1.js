@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:511px;\" coordsize=\"950,511\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:511px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA7E00J54400000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:511px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:269px;top:17px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>WINDSHIELD UPPER SEAL<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:158px;top:45px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>WINDSHIELD MOLDING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:632px;top:37px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>UPPER RUBBER DAM<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:806px;top:83px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>CLIP, 2<br>(Self-adhesive-type,<br>glass side)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:770px;top:320px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>LOWER RUBBER DAM<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:55px;top:466px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>WINDSHIELD<br><a href=\"javascript:CtsProc('0','000000000000675','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:35px;top:74px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>PASSENGER'S<br>AIRBAG CAUTION LABEL<br>(For some models)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:316px;top:466px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>RAIN SENSOR COVER BASE<br><a href=\"javascript:CtsProc('0','000000000000673','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:588px;top:431px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>DASHBOARD<br>SEAL A<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:745px;top:431px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>DASHBOARD<br>SEAL B<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

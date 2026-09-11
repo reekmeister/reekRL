@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group3\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:1055px;\" coordsize=\"950,1055\">");
+write("<v:rect id=\"rect3\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:1055px;\">");
+write("<img id=\"img3\" name=\"PrtImgId\" src=\"../img/SJA7E4RJ46643400000DAAD03.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1055px;border-color:#ffffff\">");
+write("<p id=\"p3_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:620px;top:39px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>AUXILIARY UNDER-DASH<br>RELAY BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:250px;top:276px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>LEFT SUPER LOCKING LOCK RELAY<br></b>Wire colors: ORN, WHT,<br>PNK, BLK, and WHT<br><a href=\"javascript:CtsProc('0','000000000002244','i000')\">Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:4px;top:827px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>LEFT REAR SUPER<br>LOCKING ACTUATOR/<br>KNOB SWITCH<br><a href=\"javascript:CtsProc('0','000000000000629','i000')\"></b>Actuator Test,</a><br><a href=\"javascript:CtsProc('0','000000000000630','i000')\">Knob Switch Test,</a><br><a href=\"javascript:CtsProc('0','000000000000540','i000')\">Door Switch Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:712px;top:684px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DRIVER'S SUPER<br>LOCKING ACTUATOR/<br>KNOB SWITCH<br><a href=\"javascript:CtsProc('0','000000000000629','i000')\"></b>Actuator Test,</a><br><a href=\"javascript:CtsProc('0','000000000000630','i000')\">Knob Switch Test,</a><br><a href=\"javascript:CtsProc('0','000000000000540','i000')\">Door Switch Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:657px;top:784px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>FRONT PASSENGER'S<br>SUPER LOCKING ACTUATOR/<br>KNOB SWITCH<br><a href=\"javascript:CtsProc('0','000000000000629','i000')\"></b>Actuator Test,</a><br><a href=\"javascript:CtsProc('0','000000000000630','i000')\">Knob Switch Test,</a><br><a href=\"javascript:CtsProc('0','000000000000540','i000')\">Door Switch Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:563px;top:882px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>RIGHT REAR SUPER LOCKING ACTUATOR/<br>KNOB SWITCH<br><a href=\"javascript:CtsProc('0','000000000000629','i000')\"></b>Actuator Test,</a><br><a href=\"javascript:CtsProc('0','000000000000630','i000')\">Knob Switch Test,</a><br><a href=\"javascript:CtsProc('0','000000000000540','i000')\">Door Switch Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:153px;top:970px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>SUPER LOCKING UNLOCK RELAY<br></b>Wire colors: PNK, WHT,<br>BRN, BLK, and WHT<br><a href=\"javascript:CtsProc('0','000000000002244','i000')\">Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:481px;top:970px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>RIGHT SUPER LOCKING LOCK RELAY<br></b>Wire colors: RED, WHT,<br>RED, BLK, and WHT<br><a href=\"javascript:CtsProc('0','000000000002244','i000')\">Test,</a><br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

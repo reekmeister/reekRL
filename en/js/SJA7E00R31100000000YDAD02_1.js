@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:879px;\" coordsize=\"950,879\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:879px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA7E00R31100000000YDAD02.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:879px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:405px;top:263px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>BULKHEAD UPPER<br>SIDE FRAME<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:206px;top:293px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>BULKHEAD <br>SIDE STAY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:499px;top:834px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>FRONT SIDE<br>GUSSET<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:43px;top:246px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>BULKHEAD UPPER <br>CENTER FRAME<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:97px;top:828px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>BULKHEAD LOWER<br>CROSS-MEMBER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:644px;top:834px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>FRONT WHEELHOUSE<br>LOWER EXTENSION/LOWER MEMBER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:481px;top:187px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>WHEELHOUSE<br>UPPER MEMBER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:426px;top:531px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>SIDE STAY<br>PLATE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:194px;top:637px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>BULKHEAD <br>SIDE STAY<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

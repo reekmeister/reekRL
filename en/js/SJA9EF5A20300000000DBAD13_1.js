@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group13\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:863px;\" coordsize=\"950,863\">");
+write("<v:rect id=\"rect13\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:863px;\">");
+write("<img id=\"img13\" name=\"PrtImgId\" src=\"../img/SJA9EF5A20300000000DBAD13.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:863px;border-color:#ffffff\">");
+write("<p id=\"p13_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:741px;top:620px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p13_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:358px;top:827px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>3<br></b></nobr>");
+write("</p>");
+write("<p id=\"p13_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:287px;top:827px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>4<br></b></nobr>");
+write("</p>");
+write("<p id=\"p13_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:790px;top:75px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>1<br></b></nobr>");
+write("</p>");
+write("<p id=\"p13_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:109px;top:515px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>5<br></b></nobr>");
+write("</p>");
+write("<p id=\"p13_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:169px;top:463px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>6<br></b></nobr>");
+write("</p>");
+write("<p id=\"p13_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:563px;top:754px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>RIGHT SIDE WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p13_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:155px;top:812px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>FLOOR<br>SUBHARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p13_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:580px;top:22px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DRIVER'S UNDER-DASH<br>FUSE/RELAY BOX<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

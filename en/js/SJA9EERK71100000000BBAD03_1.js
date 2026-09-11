@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group2\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:655px;\" coordsize=\"950,655\">");
+write("<v:rect id=\"rect2\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:655px;\">");
+write("<img id=\"img2\" name=\"PrtImgId\" src=\"../img/SJA9EERK71100000000BBAD03.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:655px;border-color:#ffffff\">");
+write("<p id=\"p2_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:704px;top:129px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>Select the ''Aircon Diag''<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:592px;top:30px;font-weight:normal;font-size:8.32pt;\">");
+write("<nobr><b>Return<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:294px;top:71px;font-weight:normal;font-size:9.59pt;\">");
+write("<nobr><b>Connection<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:447px;top:71px;font-weight:normal;font-size:9.59pt;\">");
+write("<nobr><b>OK<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:297px;top:94px;font-weight:normal;font-size:9.59pt;\">");
+write("<nobr><b>Ignition<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:447px;top:95px;font-weight:normal;font-size:9.59pt;\">");
+write("<nobr><b>ON<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:394px;top:30px;font-weight:normal;font-size:9.59pt;\">");
+write("<nobr><b>Aircon<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:564px;top:209px;font-weight:normal;font-size:8.32pt;\">");
+write("<nobr><b>Aircon Diag<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:591px;top:411px;font-weight:normal;font-size:8.32pt;\">");
+write("<nobr><b>Return<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:377px;top:411px;font-weight:normal;font-size:9.59pt;\">");
+write("<nobr><b>Aircon Diag <br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

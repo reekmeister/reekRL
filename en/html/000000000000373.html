@@ -1,0 +1,2897 @@
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="author" content="HONDA MOTOR Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>(
+SJA7E00J00020400000FEAT00
+)</title>
+<script>
+<!--
+var bufCookie = new Array;
+var strKey,strVal;
+var nPos=0;
+var strPara = location.href.split("?")[1];
+if((typeof(strPara) == "undefined") || (strPara == null)){
+	bufCookie = document.cookie.split(";");
+	while (nPos < bufCookie.length) {
+		strKey = bufCookie[nPos].split("=")[0];
+		strVal = bufCookie[nPos].split("=")[1];
+		if(strKey == "CurrentYearType"){
+			strPara = strVal;
+			break;
+		}
+		nPos++;
+	}
+}
+if((typeof(strPara) != "undefined") && (strPara != null)){
+	document.title = strPara + document.title;
+	document.cookie = "CurrentYearType="+strPara+";";
+	var strUrl = location.href.split("?")[0];
+	if(strUrl != location.href) {
+		location.replace(strUrl);
+	}
+}
+function CtsProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Cts(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Cts(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Cts(Key,strData);
+	}
+	else {
+		parent.Cts(Key,strData);
+	}
+}
+
+function PrtProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Prt(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Prt(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Prt(Key,strData);
+	}
+	else {
+		parent.Prt(Key,strData);
+	}
+}
+-->
+</script>
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<style>
+	v\:*	{ behavior: url(#default#VML); }
+	.drag	{ position: relative; cursor:   hand; }
+</style>
+</head>
+<script>
+<!--
+var load_flag = false;
+function onLoadProc() {
+	parent.Old(this);
+	load_flag = true;
+}
+-->
+</script>
+<script src="../js/PrinterSize.js"></script>
+<script src="../js/StandardPrintFunc.js"></script>
+<body onload="javascript:onLoadProc()" style="font-family:sans-serif;">
+<div xmlns:v="urn:schemas-microsoft-com:vml">
+<div class="top_title">
+DPMS Input Test and Function Test
+</div>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="i010">
+</a>
+<ol>
+<li value="1">
+<div>
+Connect the HDS to the DLC.
+</div>
+</li>
+</ol>
+<a name="i020">
+</a>
+<ol>
+<li value="2">
+<div>
+Turn the ignition switch ON (II).
+</div>
+</li>
+</ol>
+<a name="i030">
+</a>
+<ol>
+<li value="3">
+<div>
+From the Body Electrical System menu, select Power Seat/Power Mirror, then DTCs.
+</div>
+<ul type="disc">
+<li>
+<div>
+If DTCs are found, go to the indicated DTCs troubleshooting.
+</div>
+</li>
+<li>
+<div>
+If no DTCs are found, go to 
+<a href="javascript:parent.Jmp('i040')">Step 4
+</a>
+.
+</div>
+</li>
+</ul>
+</li>
+</ol>
+<a name="i040">
+</a>
+<ol>
+<li value="4">
+<div>
+Exit the DTC mode, and select Data List from the Power Seat/Power Mirror Test Mode menu.
+</div>
+</li>
+</ol>
+<a name="i050">
+</a>
+<ol>
+<li value="5">
+<div>
+Test each input and monitor each output under the condition shown:
+</div>
+<ul type="disc">
+<li>
+<div>
+If the data list indication is correct, continue to the next switch. If all switches are OK, go to 
+<a href="javascript:parent.Jmp('i060')">Step 6
+</a>
+.
+</div>
+</li>
+<li>
+<div>
+If the data list indication is not correct, perform the appropriate test at the control unit and terminal indicated in the table.
+</div>
+</li>
+<table class="Viewer">
+<tr>
+<td width="10" class="ViewerTD" align="right">-
+</td>
+<td class="ViewerTD">
+<div>
+Voltage drop tests should be done with the ignition switch ON (II) and all connectors connected and the meter negative test lead attached to a good body ground.
+</div>
+</td>
+</tr>
+<tr>
+<td width="10" class="ViewerTD" align="right">-
+</td>
+<td class="ViewerTD">
+<div>
+Continuity tests should be done with the ignition switch OFF and indicated terminals disconnected.
+</div>
+</td>
+</tr>
+</table>
+</ul>
+<div>
+<table width="87%" class="Viewer" frame="border" style="table-layout:fixed;">
+<col width="16%">
+<col width="29%">
+<col width="29%">
+<col width="25%">
+<thead>
+<tr>
+<th class="ViewerTH" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="center">
+<div>
+<b>
+Data List Input/Command
+</b>
+</div>
+</th>
+<th class="ViewerTH" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="center">
+<div>
+<b>
+Condition: Data List Indication
+</b>
+</div>
+</th>
+<th class="ViewerTH" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="center">
+<div>
+<b>
+Control Unit/Terminal Number/Test (If applicable)
+</b>
+</div>
+</th>
+<th class="ViewerTH" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="center">
+<div>
+<b>
+Possible cause if result is not obtained
+</b>
+</div>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Door Mirror UP switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Mirror select switch in LEFT, then RIGHT 
+</div>
+<div>
+Mirror up switch pressed: ON
+</div>
+<div>
+Mirror up switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+MICU/P9 [P6] (WHT)
+</div>
+<div>
+Mirror select switch UP: 0 V
+</div>
+<div>
+Center or DOWN: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000000582','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Door Mirror LEFT TURN switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Mirror select switch in LEFT position: ON
+</div>
+<div>
+Select switch in CENTER or RIGHT pressed: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+MICU/P11 [P4] (PUR)
+</div>
+<div>
+Mirror select switch LEFT: 0 V
+</div>
+<div>
+Center or RIGHT: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000000582','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Door Mirror DOWN switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Mirror select switch in LEFT, then RIGHT 
+</div>
+<div>
+Mirror down switch pressed: ON
+</div>
+<div>
+Mirror down switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+MICU/P10 [P5] (PNK)
+</div>
+<div>
+Mirror select switch DOWN: 0 V
+</div>
+<div>
+Center or UP: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000000582','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Door Mirror RIGHT TURN switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Mirror select switch in RIGHT position: ON
+</div>
+<div>
+Select switch in CENTER or LEFT position: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+MICU/P22 [P23] (GRY)
+</div>
+<div>
+Mirror select switch RIGHT: 0 V
+</div>
+<div>
+Center or LEFT: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000000582','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Door Mirror LEFT switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Mirror select switch in LEFT, then RIGHT
+</div>
+<div>
+Mirror left switch pressed: ON
+</div>
+<div>
+Mirror switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+MICU/P25 [P20] (GRN)
+</div>
+<div>
+Mirror select switch LEFT: 0 V
+</div>
+<div>
+Center or RIGHT: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000000582','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Door Mirror RIGHT switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Mirror select switch in LEFT, then RIGHT
+</div>
+<div>
+Mirror right switch pressed: ON
+</div>
+<div>
+Mirror switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+MICU/P26 [P19] (BLU)
+</div>
+<div>
+Mirror select switch RIGHT: 0 V
+</div>
+<div>
+Center or LEFT: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000000582','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<div>
+<table width="87%" class="Viewer" frame="void" style="table-layout:fixed;">
+<col width="5%">
+<col width="94%">
+<tbody>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:none;border-bottom-style:none;border-top-style:none;" align="left">
+<div>
+[  ]:
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:none;border-bottom-style:none;border-top-style:none;" align="left">
+<div>
+RHD type
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<div>
+<table width="87%" class="Viewer" frame="border" style="table-layout:fixed;">
+<col width="16%">
+<col width="25%">
+<col width="25%">
+<col width="32%">
+<thead>
+<tr>
+<th class="ViewerTH" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="center">
+<div>
+<b>
+Data List Input/Command
+</b>
+</div>
+</th>
+<th class="ViewerTH" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="center">
+<div>
+<b>
+Condition: Data List Indication
+</b>
+</div>
+</th>
+<th class="ViewerTH" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="center">
+<div>
+<b>
+Control Unit/Terminal Number/Test (If applicable)
+</b>
+</div>
+</th>
+<th class="ViewerTH" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="center">
+<div>
+<b>
+Possible cause if result is not obtained
+</b>
+</div>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Slide switch Forward
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Slide switch forward: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit
+/A1, A7 (BLU)
+</div>
+<div>
+Slide switch forward: 0 V
+</div>
+<div>
+Switch released: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000001702','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Slide switch Backward
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Slide switch backward: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/A1, A27 (ORN/BLU)
+</div>
+<div>
+Slide switch backward: 0 V
+</div>
+<div>
+Switch released: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000001702','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Recline Switch Forward
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Recline switch forward: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/A1, A6 (WHT/YEL)
+</div>
+<div>
+Recline switch forward: 0 V
+</div>
+<div>
+Switch released: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000001702','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Recline Switch Backward
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Recline switch backward: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/A1, A25 (ORN/GRN)
+</div>
+<div>
+Recline switch backward: 0 V
+</div>
+<div>
+Switch released: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000001702','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Front Up-Down Switch Up
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Front up-down switch up: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/A1, A5 (GRN/BLU)
+</div>
+<div>
+Front up-down switch up: 0 V
+</div>
+<div>
+Switch released: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000001702','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Front Up-Down Switch Down
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Front up-down switch down: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/A1, A4 (RED/BLK)
+</div>
+<div>
+Front up-down switch down: 0 V
+</div>
+<div>
+Switch released: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000001702','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Rear Up-Down Switch Up
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Rear up-down switch up: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/A1, A23 (GRN/ORN)
+</div>
+<div>
+Rear up-down switch up: 0 V
+</div>
+<div>
+Switch released: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000001702','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Rear Up-Down Switch Down
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Rear up-down switch down: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/A1, A3 (BRN/BLK)
+</div>
+<div>
+Rear up-down switch up: 0 V
+</div>
+<div>
+Switch released: 5 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000001702','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Ignition Switch for Power Seat Control
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Ignition switch ON (II): ON
+</div>
+<div>
+Ignition switch OFF: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/A35 (BLK/YEL)
+</div>
+<div>
+Ignition switch ON (II): 12 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Blown No. 21 (10 A) fuse in the driver's under-dash fuse/relay box
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+A/T Gear Position Switch (P)
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Transmission range switch P position: ON
+</div>
+<div>
+Any other position than P: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/A31 (BLK/BLU)
+</div>
+<div>
+Transmission range switch P: 0 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty 
+transmission range switch
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Seat MEMO Switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Seat MEMO switch pressed: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver's MPCS unit/A31 (ORN)
+</div>
+<div>
+Seat MEMO switch pressed: 0 V
+</div>
+<div>
+Switch released: 5 V more
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000000374','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+<li>
+<div>
+Poor ground (G601)
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver 1 Position Switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver position 1 switch pressed: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver's MPCS unit/A29 (GRN)
+</div>
+<div>
+Driver's position 1 switch pressed: 0 V
+</div>
+<div>
+Switch released: 5 V more
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000000374','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+<li>
+<div>
+Poor ground (G601)
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver 2 Position Switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver position 2 switch pressed: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver's MPCS unit/A30 (RED)
+</div>
+<div>
+Driver's position 2 switch pressed: 0 V
+</div>
+<div>
+Switch released: 5 V more
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000000374','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+<li>
+<div>
+Poor ground (G601)
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Column Tilt Up switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Steering tilt switch up: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering control unit
+/A15 (BRN), A7 (LT GRN)
+</div>
+<div>
+Switch in TILT UP: 0 V
+</div>
+<div>
+Switch released: Battery voltage
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000000249','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Column Tilt Down switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Steering tilt switch down: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering control unit/A15 (BRN), A6 (GRN)
+</div>
+<div>
+Switch in TILT DOWN: 0 V
+</div>
+<div>
+Switch released: Battery voltage
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000000249','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Column Telescopic Pull switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Steering telescopic switch pull: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering control unit/A15 (BRN), A14 (PUR)
+</div>
+<div>
+Switch in TELESCOPIC PULL: 0 V
+</div>
+<div>
+Switch released: Battery voltage
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000000249','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Column Telescopic Push switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Steering telescopic switch push: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering control unit/A15 (BRN), A6 (GRN)
+</div>
+<div>
+Switch in TELESCOPIC PUSH: 0 V
+</div>
+<div>
+Switch released: Battery voltage
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000000249','i000')">
+Faulty switch
+</a>
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Ignition Switch (ETS)
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Ignition switch ON (II): ON
+</div>
+<div>
+Ignition switch OFF: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering control unit/A9 (YEL)
+</div>
+<div>
+Ignition switch ON (II): 12 V
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Blown No. 21 (10 A) fuse in the driver's under-dash fuse/relay box
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Slide Sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Seat moving forward or backward: ON
+</div>
+<div>
+Seat not moving: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit
+/A11 (YEL/GRN)
+</div>
+<div>
+Pulses as seat moves: 2.5 V average
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Front Up-Down Sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Seat front moving up/down: ON
+</div>
+<div>
+Seat not moving: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/A12 (YEL/BLK)
+</div>
+<div>
+Pulses as seat moves: 2.5 V average
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Recline Sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Seat back moving forward or backward: ON
+</div>
+<div>
+Seat not moving: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/A10 (WHT/RED)
+</div>
+<div>
+Pulses as seat moves: 2.5 V average
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Rear Up-Down Sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Seat rear moving up/down: ON
+</div>
+<div>
+Seat not moving: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/A13 (YEL/BLK)
+</div>
+<div>
+Pulses as seat moves: 2.5 V average
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Column Tilt sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Steering tilting up/down: ON
+</div>
+<div>
+Steering not moving: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering control unit/A6 (GRN), A7 (LT GRN)
+</div>
+<div>
+Pulses as steering moves: 2.5 V average
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Column Telescopic sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Steering telescopic pull/push: ON
+</div>
+<div>
+Steering not moving: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering control unit/A6 (GRN), A14 (PUR)
+</div>
+<div>
+Pulses as steering moves: 2.5 V average
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Left mirror horizontal sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Left mirror moves left/right: NORMAL
+</div>
+<div>
+Left mirror does not move: ABNORMAL
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver's MPCS unit/A10 (PUR), A19 (WHT)
+</div>
+<div>
+Left mirror moving from full left to full right: A10 (about 0.5 V to 4.5 V), A19 (5 V)
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Left mirror vertical sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Left mirror moves up/down: ON
+</div>
+<div>
+Left mirror stopped: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver's MPCS unit/A9 (BLU), A19 (WHT)
+</div>
+<div>
+Left mirror moving from full left to full right: A9 (about 0.5 V to 4.5 V), A19 (5 V)
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Right door mirror horizontal sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Right mirror moves left/right: ON
+</div>
+<div>
+Right mirror stopped: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Passenger's MPCS unit/A6 (BLU), A13 (PNK)
+</div>
+<div>
+Right mirror moving from full left to full right: A6 (about 0.5 V to 4.5 V), A13 (5 V)
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Right door mirror vertical sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Right mirror moves up/down: ON
+</div>
+<div>
+Right mirror stopped: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Passenger's MPCS unit/A5 (RED), A13 (PNK)
+</div>
+<div>
+Right mirror moving from full left to full up: A5 (about 0.5 V to 4.5 V), A13 (5 V)
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+DPMS MEM switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driving position memory switch MEMO button pushed: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver's MPCS unit/A31 (ORN)
+</div>
+<div>
+Driving position memory switch MEMO button pushed: A31 (about 1 V or less)
+</div>
+<div>
+MEMO button released: A31 (5 V or more)
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty switch
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+DPMS POS1 switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driving position memory switch POS1 button pushed: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver's MPCS unit/A29 (GRN)
+</div>
+<div>
+Driving position memory switch Position 1 button pushed: A29 (about 1 V or more)
+</div>
+<div>
+Position 1 button released: A29 (5 V or more)
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty switch
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+DPMS POS2 switch
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driving position memory switch POS2 button pushed: ON
+</div>
+<div>
+Switch released: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver's MPCS unit/A30 (RED)
+</div>
+<div>
+Driving position memory switch Position 2 button pushed: A30 (about 1 V or more)
+</div>
+<div>
+Position 2 button released: A30 (5 V or more)
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty switch
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Left door mirror horizontal sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Left mirror moves left/right: NORMAL
+</div>
+<div>
+Left mirror does not move: ABNORMAL
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver's MPCS unit/A10 (PUR), A19 (WHT)
+</div>
+<div>
+Left mirror moving from full left to full right: A10 (about 0.5 V to 4.5 V), A19 (5 V)
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Left door mirror vertical sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Left mirror moves up/down: ON
+</div>
+<div>
+Left mirror stopped: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Driver's MPCS unit/A9 (BLU), A19 (WHT)
+</div>
+<div>
+Left mirror moving from full down to full up: A9 (about 0.5 V to 4.5 V), A19 (5 V)
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Right door mirror horizontal sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Right mirror moves left/right: ON
+</div>
+<div>
+Right mirror stopped: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Passenger's MPCS unit/A6 (BLU), A13 (PNK)
+</div>
+<div>
+Right mirror moving from full left to full right: A6 (about 0.5 V to 4.5 V), A13 (5 V)
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Right door mirror vertical sensor
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Left mirror moves up/down: ON
+</div>
+<div>
+Left mirror stopped: OFF
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Passenger's MPCS unit/A5 (RED), A13 (PNK)
+</div>
+<div>
+Right mirror moving from full down to full up: A5 (about 0.5 V to 4.5 V), A13 (5 V)
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty sensor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+Faulty control unit
+</div>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<div>
+</div>
+<br>
+<div>
+</div>
+<br>
+<div>
+</div>
+<br>
+</li>
+</ol>
+<a name="i060">
+</a>
+<ol>
+<li value="6">
+<div>
+Exit the Data List and select Function Test.
+</div>
+</li>
+</ol>
+<a name="i070">
+</a>
+<ol>
+<li value="7">
+<div>
+Do each of the function tests listed in the table shown. The appropriate output should occur.
+</div>
+<ul type="disc">
+<li>
+<div>
+If the function operates normally, go to the next function test. If all function tests operate normally, the system is OK.
+</div>
+</li>
+<li>
+<div>
+If the function does not occur, do the appropriate test at the control unit and terminal indicated in the table.
+</div>
+</li>
+<table class="Viewer">
+<tr>
+<td width="10" class="ViewerTD" align="right">-
+</td>
+<td class="ViewerTD">
+<div>
+Voltage drop tests should be done with the ignition switch ON and all connectors connected.
+</div>
+</td>
+</tr>
+<tr>
+<td width="10" class="ViewerTD" align="right">-
+</td>
+<td class="ViewerTD">
+<div>
+Continuity tests should be done with the ignition switch OFF and indicated terminals disconnected.
+</div>
+</td>
+</tr>
+<tr>
+<td width="10" class="ViewerTD" align="right">-
+</td>
+<td class="ViewerTD">
+<div>
+Jumper tests should be done according to the instructions indicated.
+</div>
+</td>
+</tr>
+</table>
+<li>
+<div>
+If the test indicates that the component operates normally, but the function will not operate by doing the function test or the normal use of the component, the control unit that operates that function must be faulty; replace it.
+</div>
+</li>
+<li>
+<div>
+If the test indicates that the component does not operate normally, check for an open or short in the harnesses between the component and the control unit. If the harness is OK, replace the component.
+</div>
+</li>
+</ul>
+<div>
+<table width="87%" class="Viewer" frame="border" style="table-layout:fixed;">
+<col width="15%">
+<col width="18%">
+<col width="42%">
+<col width="23%">
+<thead>
+<tr>
+<th class="ViewerTH" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="center">
+<div>
+<b>
+Function Test
+</b>
+</div>
+</th>
+<th class="ViewerTH" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="center">
+<div>
+<b>
+Component and Operation
+</b>
+</div>
+</th>
+<th class="ViewerTH" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="center">
+<div>
+<b>
+Control Unit/Terminal Number/Test (If applicable)
+</b>
+</div>
+</th>
+<th class="ViewerTH" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="center">
+<div>
+<b>
+Possible cause if result is not obtained
+</b>
+</div>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power Seat: Slide Motor-Full Forward
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Seat slides forward
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit
+/B8 (BLU), A9 (BLK), B7 (WHT), B17 (YEL)
+</div>
+<div>
+Disconnect the power seat control unit connectors A and B. Connect B8 to B17 and B7 to A9; driver's seat should slide forward.
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty motor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power Seat: Slide Motor-Full Backward
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Seat slides backward
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/B8 (BLU), A9 (BLK), B7 (WHT), B17 (YEL)
+</div>
+<div>
+Disconnect the power seat control unit connectors A and B. Connect B8 to B7 and B17 to A9; driver's seat should slide backward.
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty motor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power Seat: Front UP-DOWN Motor-Full Up
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Front of seat moves up
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/B8 (BLU), A9 (BLK), B6 (BRN/WHT), B16 (ORN)
+</div>
+<div>
+Disconnect the power seat control unit connectors A and B. Connect B8 to B16 and B6 to A9; front of driver's seat should move up.
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty motor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power Seat: Front UP-DOWN Motor-Full Down
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Front of seat moves up
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/B8 (BLU), A9 (BLK), B6 (BRN/WHT), B16 (ORN)
+</div>
+<div>
+Disconnect the power seat control unit connectors A and B. Connect B8 to B6 and B16 to A9; front of driver's seat should move down.
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty motor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power Seat: Rear Up-Down Motor-Full Up
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Rear of seat moves up
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/B1 (RED), A9 (BLK), B2 (GRN), B10 (BLU/GRN)
+</div>
+<div>
+Disconnect the power seat control unit connectors A and B. Connect B1 to B2 and B10 to A9; rear of driver's seat should move up.
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty motor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power Seat: Rear Up-Down Motor-Full Down
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Rear of seat moves down
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/B1 (RED), A9 (BLK), B2 (GRN), B10 (BLU/GRN)
+</div>
+<div>
+Disconnect the power seat control unit connectors A and B. Connect B1 to B10 and B2 to A9; rear of driver's seat should move down.
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty motor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power Seat: Recline Motor-Full Forward
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Seat back moves forward
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/B1 (RED), A9 (BLK), B9 (RED), B11 (GRY)
+</div>
+<div>
+Disconnect the power seat control unit connectors A and B. Connect B1 to B11 and B9 to A9; driver's seat back should move forward.
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty motor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power Seat: Recline Motor-Full Backward
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Seat back moves backward
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power seat control unit/B1 (RED), A9 (BLK), B9 (RED), B11 (GRY)
+</div>
+<div>
+Disconnect the power seat control unit connectors A and B. Connect B1 to B9 and B11 to A9; driver's seat back should move backward.
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty motor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Column Tilt
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering tilts up
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering control unit
+/B1 (BLK), B3 (WHT), B7 (ORN), B8 (LT BLU)
+</div>
+<div>
+Disconnect the tilt/telescopic steering control unit connectors A and B. Connect B3 to B8 and B1 to B7; steering tilts up.
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty motor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Column Tilt
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering tilts down
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering control unit/B1 (BLK), B3 (WHT), B7 (ORN), B8 (LT BLU)
+</div>
+<div>
+Disconnect the tilt/telescopic steering control unit connectors A and B. Connect B3 to B7 and B1 to B8; steering tilts down.
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty motor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Column Telescopic
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering telescopic pull
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering control unit/B1 (BLK), B5 (GRN), B6 (PNK), B4 (LT GRN)
+</div>
+<div>
+Disconnect the tilt/telescopic steering control unit connectors A and B. Connect B5 to B4 and B1 to B6; steering telescopic pull.
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty motor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Column Telescopic
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering telescopic push
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<div>
+Power tilt/telescopic steering control unit/B1 (BLK), B5 (GRN), B6 (PNK), B4 (LT GRN)
+</div>
+<div>
+Disconnect the tilt/telescopic steering control unit connectors A and B. Connect B5 to B6 and B1 to B4; steering telescopic push.
+</div>
+</td>
+<td class="ViewerTD" style="border-left-style:none;border-right-style:solid;border-bottom-style:solid;border-top-style:none;" align="left">
+<ul type="disc">
+<li>
+<div>
+Faulty motor
+</div>
+</li>
+<li>
+<div>
+An open in the wire
+</div>
+</li>
+<li>
+<div>
+A short in the wire
+</div>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<div>
+</div>
+<br>
+</li>
+</ol>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

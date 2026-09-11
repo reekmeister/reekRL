@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group8\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:495px;\" coordsize=\"950,495\">");
+write("<v:rect id=\"rect8\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:495px;\">");
+write("<img id=\"img8\" name=\"PrtImgId\" src=\"../img/SJA7E50A20300000000DBAD08.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:495px;border-color:#ffffff\">");
+write("<p id=\"p8_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:792px;top:20px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>ELD (4)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p8_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:69px;top:156px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>PASSENGER'S UNDER-DASH<br>FUSE/RELAY BOX<br>(5)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p8_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:551px;top:156px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>AUXILIARY UNDER-HOOD<br>RELAY BOX<br>(RFC UNIT) (7)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p8_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:780px;top:156px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>RFC UNIT<br>(8)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p8_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:334px;top:156px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>EPS CONTROL UNIT<br>(With EPS)<br>(6)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p8_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:553px;top:20px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>UNDER-HOOD<br>FUSE/RELAY BOX<br>(3)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p8_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:336px;top:20px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>UNDER-HOOD<br>FUSE/RELAY BOX<br>(2)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p8_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:109px;top:20px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>UNDER-HOOD<br>FUSE/RELAY BOX<br>(1)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p8_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:121px;top:292px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>RFC UNIT<br>(9)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p8_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:2px;top:433px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b></b>NOTE:<br>· Connector with male terminals (double outline): view from terminal side<br>· Connector with female terminals (single outline): view from wire side<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

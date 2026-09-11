@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group14\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:559px;\" coordsize=\"950,559\">");
+write("<v:rect id=\"rect14\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:559px;\">");
+write("<img id=\"img14\" name=\"PrtImgId\" src=\"../img/SJA7E47A20300000000DBAD14.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:559px;border-color:#ffffff\">");
+write("<p id=\"p14_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:84px;top:19px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>23P CONNECTOR<br>(1)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:384px;top:319px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>DRIVER'S UNDER-DASH<br>FUSE/RELAY BOX<br>(8)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:400px;top:19px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>20P CONNECTOR<br>(2)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:687px;top:19px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>12P CONNECTOR<br>(KG model, With ACC)<br>(3)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:69px;top:169px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>SECONDARY FUEL GAUGE<br>SENDING UNIT<br>(4)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:400px;top:169px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>23P CONNECTOR<br>(5)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:671px;top:169px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>FUEL PUMP CONTROL MODULE<br>(6)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:107px;top:319px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>FUEL PUMP<br>(7)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:2px;top:486px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b></b>NOTE:<br>· Connector with male terminals (double outline): view from terminal side<br>· Connector with female terminals (single outline): view from wire side<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

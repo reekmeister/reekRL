@@ -1,0 +1,891 @@
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="author" content="HONDA MOTOR Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>(
+SJA9EFJK73200000000BBAT90
+)</title>
+<script>
+<!--
+var bufCookie = new Array;
+var strKey,strVal;
+var nPos=0;
+var strPara = location.href.split("?")[1];
+if((typeof(strPara) == "undefined") || (strPara == null)){
+	bufCookie = document.cookie.split(";");
+	while (nPos < bufCookie.length) {
+		strKey = bufCookie[nPos].split("=")[0];
+		strVal = bufCookie[nPos].split("=")[1];
+		if(strKey == "CurrentYearType"){
+			strPara = strVal;
+			break;
+		}
+		nPos++;
+	}
+}
+if((typeof(strPara) != "undefined") && (strPara != null)){
+	document.title = strPara + document.title;
+	document.cookie = "CurrentYearType="+strPara+";";
+	var strUrl = location.href.split("?")[0];
+	if(strUrl != location.href) {
+		location.replace(strUrl);
+	}
+}
+function CtsProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Cts(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Cts(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Cts(Key,strData);
+	}
+	else {
+		parent.Cts(Key,strData);
+	}
+}
+
+function PrtProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Prt(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Prt(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Prt(Key,strData);
+	}
+	else {
+		parent.Prt(Key,strData);
+	}
+}
+-->
+</script>
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<style>
+	v\:*	{ behavior: url(#default#VML); }
+	.drag	{ position: relative; cursor:   hand; }
+</style>
+</head>
+<script>
+<!--
+var load_flag = false;
+function onLoadProc() {
+	parent.Old(this);
+	load_flag = true;
+}
+-->
+</script>
+<script src="../js/PrinterSize.js"></script>
+<script src="../js/StandardPrintFunc.js"></script>
+<body onload="javascript:onLoadProc()" style="font-family:sans-serif;">
+<div xmlns:v="urn:schemas-microsoft-com:vml">
+<div class="top_title">
+How to Troubleshoot the Gauges
+</div>
+<div>
+</div>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<span style="display:block" id="imgDispId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<div>
+The gauge control module has a self-diagnostic function which consists of the following checks:
+</div>
+<ul type="disc">
+<li>
+<div>
+The beeper drive circuit check.
+</div>
+</li>
+<li>
+<div>
+The indicator drive circuit check.
+</div>
+</li>
+<li>
+<div>
+The switch input test.
+</div>
+</li>
+<li>
+<div>
+The LCD segments check.
+</div>
+</li>
+<li>
+<div>
+The gauges drive circuit check (Speedometer, Tachometer, Fuel gauge, Engine coolant temperature gauge).
+</div>
+</li>
+<li>
+<div>
+The communication line check (of the body-controller area network (B-CAN) communication line and the fast-controller area network (F-CAN) communication line between the gauges).
+</div>
+</li>
+</ul>
+<div>
+NOTE: Indicators are also controlled via the communication line.
+</div>
+<a name="iG01">
+</a>
+<div class="servinfosub_title">
+<b>
+Entering the self-diagnostic function
+</b>
+</div>
+<div>
+Before doing the self-diagnostic function, make sure the No. 7 (10 A) fuse and the No. 21 (10 A) fuse in the driver's under-dash fuse/relay box are OK.
+</div>
+<a name="i010">
+</a>
+<ol>
+<li value="1">
+<div>
+Push and hold the SEL/RESET button.
+</div>
+</li>
+</ol>
+<a name="i020">
+</a>
+<ol>
+<li value="2">
+<div>
+Turn the headlights ON.
+</div>
+</li>
+</ol>
+<a name="i030">
+</a>
+<ol>
+<li value="3">
+<div>
+Turn the ignition switch to ON (II).
+</div>
+</li>
+</ol>
+<a name="i040">
+</a>
+<ol>
+<li value="4">
+<div>
+Within 5 sec., turn the headlights OFF, then ON and OFF again.
+</div>
+</li>
+</ol>
+<a name="i050">
+</a>
+<ol>
+<li value="5">
+<div>
+Within 5 sec., release the SELECT button, and then push and release the button three times repeatedly.
+</div>
+</li>
+</ol>
+<div>
+NOTE:
+</div>
+<ul type="disc">
+<li>
+<div>
+While in the self-diagnostic mode, the dash lights brightness controller operates normally.
+</div>
+</li>
+<li>
+<div>
+While in the self-diagnostic mode, the SELECT switch button is used to start the Beeper Drive Circuit Test and the Gauge Drive Circuit Check.
+</div>
+</li>
+<li>
+<div>
+If the vehicle speed exceeds 2 km/h (1.2 mph) or the ignition switch is turned to LOCK (0), the self-diagnostic mode ends.
+</div>
+</li>
+</ul>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<div>
+<span style="display:block" id="imgDispId">
+<a href="javascript:PrtProc('0','ZOOM000000000009331','1');">
+<img src="../tn/SJA9EFJK73200000000BBAD01.png">
+</a>
+</span>
+</div>
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="imgPrtId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="100%" class="ViewerTD" id="textTd" valign="top">
+<div>
+The gauge control module has a self-diagnostic function which consists of the following checks:
+</div>
+<ul type="disc">
+<li>
+<div>
+The beeper drive circuit check.
+</div>
+</li>
+<li>
+<div>
+The indicator drive circuit check.
+</div>
+</li>
+<li>
+<div>
+The switch input test.
+</div>
+</li>
+<li>
+<div>
+The LCD segments check.
+</div>
+</li>
+<li>
+<div>
+The gauges drive circuit check (Speedometer, Tachometer, Fuel gauge, Engine coolant temperature gauge).
+</div>
+</li>
+<li>
+<div>
+The communication line check (of the body-controller area network (B-CAN) communication line and the fast-controller area network (F-CAN) communication line between the gauges).
+</div>
+</li>
+</ul>
+<div>
+NOTE: Indicators are also controlled via the communication line.
+</div>
+<a name="iG01">
+</a>
+<div class="servinfosub_title">
+<b>
+Entering the self-diagnostic function
+</b>
+</div>
+<div>
+Before doing the self-diagnostic function, make sure the No. 7 (10 A) fuse and the No. 21 (10 A) fuse in the driver's under-dash fuse/relay box are OK.
+</div>
+<a name="i010">
+</a>
+<ol>
+<li value="1">
+<div>
+Push and hold the SEL/RESET button.
+</div>
+</li>
+</ol>
+<a name="i020">
+</a>
+<ol>
+<li value="2">
+<div>
+Turn the headlights ON.
+</div>
+</li>
+</ol>
+<a name="i030">
+</a>
+<ol>
+<li value="3">
+<div>
+Turn the ignition switch to ON (II).
+</div>
+</li>
+</ol>
+<a name="i040">
+</a>
+<ol>
+<li value="4">
+<div>
+Within 5 sec., turn the headlights OFF, then ON and OFF again.
+</div>
+</li>
+</ol>
+<a name="i050">
+</a>
+<ol>
+<li value="5">
+<div>
+Within 5 sec., release the SELECT button, and then push and release the button three times repeatedly.
+</div>
+</li>
+</ol>
+<div>
+NOTE:
+</div>
+<ul type="disc">
+<li>
+<div>
+While in the self-diagnostic mode, the dash lights brightness controller operates normally.
+</div>
+</li>
+<li>
+<div>
+While in the self-diagnostic mode, the SELECT switch button is used to start the Beeper Drive Circuit Test and the Gauge Drive Circuit Check.
+</div>
+</li>
+<li>
+<div>
+If the vehicle speed exceeds 2 km/h (1.2 mph) or the ignition switch is turned to LOCK (0), the self-diagnostic mode ends.
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:block" id="imgId1">
+<div>
+<span style="display:none" id="prePageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+<script src="../js/SJA9EFJK73200000000BBAD01_1.js">
+</script>
+<span style="display:none" id="postPageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+</div>
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" valign="top">
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG02">
+</a>
+<div class="servinfosub_title">
+<b>
+The Indicator Drive Circuit Check
+</b>
+</div>
+<div>
+When entering the self-diagnostic mode, these indicators blink:
+</div>
+<div>
+Seat belt indicator, charging system indicator, low fuel indicator, oil pressure indicator, high beam indicator, VSA indicator, VSA activation indicator, brake system indicator, front fog light indicator, rear fog light indicator, lights on indicator, malfunction indicator lamp (MIL), A/T gear position indicator, ABS indicator, SH-AWD indicator, AFS indicator, security indicator, message indicator, EPS indicator (with LKAS), ECPS indicator (without LKAS), cruise main indicator, ACC indicator, CMBS indicator, LKAS indicator, s-matc indicator and SRS indicator.
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG03">
+</a>
+<div class="servinfosub_title">
+<b>
+Switch Input Check
+</b>
+</div>
+<div>
+After the intermittent beeper sounds at the initial stage of self-diagnosis, a beeper sounds continuously while any of the following switch inputs are switched from OFF to ON:
+</div>
+<div>
+Parking brake switch, VSA OFF switch, cruise control master, SET, RESUME, CANCEL switches, select, previous, next switches, DISTANCE switch A, DISTANCE switch B, CMBS OFF switch, LKAS OFF switch, and dash lights brightness controller (VOL (+), VOL (−)).
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG04">
+</a>
+<div class="servinfosub_title">
+<b>
+The Beeper Drive Circuit Check
+</b>
+</div>
+<div>
+When entering the self-diagnostic mode, the beeper sounds five times.
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG05">
+</a>
+<div class="servinfosub_title">
+<b>
+The LCD [Sport shift and multi-information display (MID)] Segment Check
+</b>
+</div>
+<div>
+When entering the self-diagnostic mode, the word ‘‘Checking Now'' shows on the MID.
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<span style="display:block" id="imgDispId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG06">
+</a>
+<div class="servinfosub_title">
+<b>
+The Gauge Drive Circuit Check
+</b>
+</div>
+<div>
+When entering the self-diagnostic mode, the speedometer, the tachometer, the fuel gauge, and the engine coolant temperature gauge needles sweep from the minimum position to maximum position, then return to the minimum position.
+</div>
+<div>
+NOTE:
+</div>
+<div>
+After the beeper stops sounding and the gauge needles return to the minimum position, pushing the SELECT switch button starts the Beeper Drive Circuit Check (one beep) and the Gauge Drive Circuit Check again.
+</div>
+<div>
+The check cannot be started again until the gauge needles return to the minimum position.
+</div>
+<div>
+If a needle fails to sweep or the beeper does not sound, replace the gauge control module.
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<div>
+<span style="display:block" id="imgDispId">
+<a href="javascript:PrtProc('0','ZOOM000000000009336','1');">
+<img src="../tn/SJA9EFJK73200000000BBAD02.png">
+</a>
+</span>
+</div>
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="imgPrtId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="100%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG06">
+</a>
+<div class="servinfosub_title">
+<b>
+The Gauge Drive Circuit Check
+</b>
+</div>
+<div>
+When entering the self-diagnostic mode, the speedometer, the tachometer, the fuel gauge, and the engine coolant temperature gauge needles sweep from the minimum position to maximum position, then return to the minimum position.
+</div>
+<div>
+NOTE:
+</div>
+<div>
+After the beeper stops sounding and the gauge needles return to the minimum position, pushing the SELECT switch button starts the Beeper Drive Circuit Check (one beep) and the Gauge Drive Circuit Check again.
+</div>
+<div>
+The check cannot be started again until the gauge needles return to the minimum position.
+</div>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:block" id="imgId1">
+<div>
+<span style="display:none" id="prePageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+<script src="../js/SJA9EFJK73200000000BBAD02_1.js">
+</script>
+<span style="display:none" id="postPageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+</div>
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" valign="top">
+<div>
+If a needle fails to sweep or the beeper does not sound, replace the gauge control module.
+</div>
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<span style="display:block" id="imgDispId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG07">
+</a>
+<div class="servinfosub_title">
+<b>
+The Communication Line Check
+</b>
+</div>
+<div>
+While in the self-diagnostic mode, the Communication Line Check starts after the LCD Segment Check.
+</div>
+<div>
+If the communication line is OK, the word ‘‘OK'' will be indicated on the multi-information display (MID). If there is a communication line error, the word ‘‘NG'' will be indicated on the MID.
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<div>
+<span style="display:block" id="imgDispId">
+<a href="javascript:PrtProc('0','ZOOM000000000009337','1');">
+<img src="../tn/SJA9EFJK73200000000BBAD03.png">
+</a>
+</span>
+</div>
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="imgPrtId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="100%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG07">
+</a>
+<div class="servinfosub_title">
+<b>
+The Communication Line Check
+</b>
+</div>
+<div>
+While in the self-diagnostic mode, the Communication Line Check starts after the LCD Segment Check.
+</div>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:block" id="imgId1">
+<div>
+<span style="display:none" id="prePageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+<script src="../js/SJA9EFJK73200000000BBAD03_1.js">
+</script>
+<span style="display:none" id="postPageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+</div>
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" valign="top">
+<div>
+If the communication line is OK, the word ‘‘OK'' will be indicated on the multi-information display (MID). If there is a communication line error, the word ‘‘NG'' will be indicated on the MID.
+</div>
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<span style="display:block" id="imgDispId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG07">
+</a>
+<a name="iT01">
+</a>
+<br>
+<div class="topic_title">
+<b>
+Indication pattern
+</b>
+</div>
+<br>
+<div>
+There is a malfunction in the communication line between the F-CAN and gauge control module. The B-CAN is OK at this time. Check for DTCs in the PCM and troubleshoot any DTCs found. If no DTCs are found, go to DTC check using HDS.
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<div>
+<span style="display:block" id="imgDispId">
+<a href="javascript:PrtProc('0','ZOOM000000000009338','1');">
+<img src="../tn/SJA9EFJK73200000000BBAD04.png">
+</a>
+</span>
+</div>
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="imgPrtId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="100%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG07">
+</a>
+<a name="iT01">
+</a>
+<br>
+<div class="topic_title">
+<b>
+Indication pattern
+</b>
+</div>
+<br>
+<div>
+There is a malfunction in the communication line between the F-CAN and gauge control module. The B-CAN is OK at this time. Check for DTCs in the PCM and troubleshoot any DTCs found. If no DTCs are found, go to DTC check using HDS.
+</div>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:block" id="imgId1">
+<div>
+<span style="display:none" id="prePageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+<script src="../js/SJA9EFJK73200000000BBAD04_1.js">
+</script>
+<span style="display:none" id="postPageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+</div>
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" valign="top">
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<span style="display:block" id="imgDispId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG07">
+</a>
+<a name="iT01">
+</a>
+<div>
+There is a malfunction in the communication line between the B-CAN and gauge control module. The F-CAN line is OK at this time. Go to DTC check using HDS.
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<div>
+<span style="display:block" id="imgDispId">
+<a href="javascript:PrtProc('0','ZOOM000000000009339','1');">
+<img src="../tn/SJA9EFJK73200000000BBAD05.png">
+</a>
+</span>
+</div>
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="imgPrtId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="100%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG07">
+</a>
+<a name="iT01">
+</a>
+<div>
+There is a malfunction in the communication line between the B-CAN and gauge control module. The F-CAN line is OK at this time. Go to DTC check using HDS.
+</div>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:block" id="imgId1">
+<div>
+<span style="display:none" id="prePageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+<script src="../js/SJA9EFJK73200000000BBAD05_1.js">
+</script>
+<span style="display:none" id="postPageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+</div>
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" valign="top">
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<span style="display:block" id="imgDispId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG07">
+</a>
+<a name="iT01">
+</a>
+<div>
+There is a malfunction in the communication line between the gauge control module and F-CAN and B-CAN. Check for DTCs in the PCM and troubleshoot any DTCs found. If no DTCs are found, go to DTC check using HDS.
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<div>
+<span style="display:block" id="imgDispId">
+<a href="javascript:PrtProc('0','ZOOM000000000009340','1');">
+<img src="../tn/SJA9EFJK73200000000BBAD06.png">
+</a>
+</span>
+</div>
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="imgPrtId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="100%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG07">
+</a>
+<a name="iT01">
+</a>
+<div>
+There is a malfunction in the communication line between the gauge control module and F-CAN and B-CAN. Check for DTCs in the PCM and troubleshoot any DTCs found. If no DTCs are found, go to DTC check using HDS.
+</div>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:block" id="imgId1">
+<div>
+<span style="display:none" id="prePageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+<script src="../js/SJA9EFJK73200000000BBAD06_1.js">
+</script>
+<span style="display:none" id="postPageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+</div>
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" valign="top">
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG08">
+</a>
+<div class="servinfosub_title">
+<b>
+Ending the self-diagnostic function
+</b>
+</div>
+<div>
+Turn the ignition switch to LOCK (0).
+</div>
+<div>
+NOTE: If the vehicle speed exceeds 2 km/h (1.2 mph), the self-diagnostic function ends.
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

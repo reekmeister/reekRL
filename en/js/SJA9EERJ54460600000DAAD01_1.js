@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:815px;\" coordsize=\"950,815\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:815px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA9EERJ54460600000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:815px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:346px;top:17px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DRIVER'S WINDOW MOTOR<br><a href=\"javascript:CtsProc('0','000000000000680','i000')\"></b>Test,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:549px;top:79px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>FRONT PASSENGER'S WINDOW MOTOR<br><a href=\"javascript:CtsProc('0','000000000000680','i000')\"></b>Test,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:678px;top:142px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>RIGHT REAR WINDOW MOTOR<br><a href=\"javascript:CtsProc('0','000000000000680','i000')\"></b>Test,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:687px;top:197px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>RIGHT REAR WINDOW SWITCH<br>(Has built-in control unit)<br><a href=\"javascript:CtsProc('0','000000000002932','i000')\"></b>Input Test,</a><br><a href=\"javascript:CtsProc('0','000000000000681','i000')\">Replacement,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:650px;top:652px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>LEFT REAR WINDOW SWITCH<br>(Has built-in control unit)<br><a href=\"javascript:CtsProc('0','000000000002931','i000')\"></b>Input Test,</a><br><a href=\"javascript:CtsProc('0','000000000000681','i000')\">Replacement,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:324px;top:633px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>LEFT REAR WINDOW MOTOR<br><a href=\"javascript:CtsProc('0','000000000000680','i000')\"></b>Test,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:58px;top:531px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DRIVER'S DOOR KEY CYLINDER SWITCH<br><a href=\"javascript:CtsProc('0','000000000000628','i000')\"></b>Test,</a><br> in the Shop Manual, P/N 62SJA00B<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:1px;top:786px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b></b>LHD model is shown, RHD model is similar.<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

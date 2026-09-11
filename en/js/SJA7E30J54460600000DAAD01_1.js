@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:991px;\" coordsize=\"950,991\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:991px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA7E30J54460600000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:991px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:251px;top:18px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DRIVER'S WINDOW MOTOR<br><a href=\"javascript:CtsProc('0','000000000000680','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:443px;top:54px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>FRONT PASSENGER'S WINDOW MOTOR<br><a href=\"javascript:CtsProc('0','000000000000680','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:588px;top:98px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>RIGHT REAR WINDOW MOTOR<br><a href=\"javascript:CtsProc('0','000000000000680','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:650px;top:142px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>RIGHT REAR WINDOW SWITCH<br>(Has built-in control unit)<br><a href=\"javascript:CtsProc('0','000000000001749','i000')\"></b>Input Test,</a><br><a href=\"javascript:CtsProc('0','000000000000682','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:487px;top:609px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>LEFT REAR WINDOW SWITCH<br>(Has built-in control unit)<br><a href=\"javascript:CtsProc('0','000000000001748','i000')\"></b>Input Test,</a><br><a href=\"javascript:CtsProc('0','000000000000681','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:443px;top:685px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>LEFT REAR WINDOW MOTOR<br><a href=\"javascript:CtsProc('0','000000000000680','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:202px;top:494px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DRIVER'S DOOR<br>KEY CYLINDER<br>SWITCH<br><a href=\"javascript:CtsProc('0','000000000000628','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:55px;top:897px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>POWER WINDOW RELAY<br><a href=\"javascript:CtsProc('0','000000000002244','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:364px;top:799px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DRIVER'S UNDER-DASH FUSE/RELAY BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:1px;top:963px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b></b>LHD type is shown, RHD type is similar.<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

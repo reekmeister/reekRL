@@ -1,0 +1,355 @@
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="author" content="HONDA MOTOR Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>(
+SJA7E00J46636200000BAAT10
+)</title>
+<script>
+<!--
+var bufCookie = new Array;
+var strKey,strVal;
+var nPos=0;
+var strPara = location.href.split("?")[1];
+if((typeof(strPara) == "undefined") || (strPara == null)){
+	bufCookie = document.cookie.split(";");
+	while (nPos < bufCookie.length) {
+		strKey = bufCookie[nPos].split("=")[0];
+		strVal = bufCookie[nPos].split("=")[1];
+		if(strKey == "CurrentYearType"){
+			strPara = strVal;
+			break;
+		}
+		nPos++;
+	}
+}
+if((typeof(strPara) != "undefined") && (strPara != null)){
+	document.title = strPara + document.title;
+	document.cookie = "CurrentYearType="+strPara+";";
+	var strUrl = location.href.split("?")[0];
+	if(strUrl != location.href) {
+		location.replace(strUrl);
+	}
+}
+function CtsProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Cts(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Cts(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Cts(Key,strData);
+	}
+	else {
+		parent.Cts(Key,strData);
+	}
+}
+
+function PrtProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Prt(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Prt(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Prt(Key,strData);
+	}
+	else {
+		parent.Prt(Key,strData);
+	}
+}
+-->
+</script>
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<style>
+	v\:*	{ behavior: url(#default#VML); }
+	.drag	{ position: relative; cursor:   hand; }
+</style>
+</head>
+<script>
+<!--
+var load_flag = false;
+function onLoadProc() {
+	parent.Old(this);
+	load_flag = true;
+}
+-->
+</script>
+<script src="../js/PrinterSize.js"></script>
+<script src="../js/StandardPrintFunc.js"></script>
+<body onload="javascript:onLoadProc()" style="font-family:sans-serif;">
+<div xmlns:v="urn:schemas-microsoft-com:vml">
+<div class="top_title">
+Immobilizer System Symptom Troubleshooting Information
+</div>
+<div>
+</div>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG01">
+</a>
+<div class="servinfosub_title">
+<b>
+Symptom troubleshooting by the Immobilizer Indicator Lighting Pattern
+</b>
+</div>
+<div>
+Immobilizer system condition can be checked by the immobilizer indicator lighting pattern.
+</div>
+<a name="iT01">
+</a>
+<br>
+<div class="topic_title">
+<b>
+Normal operation
+</b>
+</div>
+<br>
+<div>
+When the ignition switch is turned ON (II) and the immobilizer code is identified, the immobilizer indicator comes on for 2 seconds, then goes off.
+</div>
+<div>
+The immobilizer indicator blinks five times when the ignition switch is turned OFF.
+</div>
+<a name="iT02">
+</a>
+<br>
+<div class="topic_title">
+<b>
+Immobilizer code is not identified
+</b>
+</div>
+<br>
+<div>
+When the ignition switch is turned ON (II) but the immobilizer code is not identified, the immobilizer indicator comes on for 2 seconds, then blinks.
+</div>
+<div>
+The immobilizer indicator goes off when the ignition switch is turned OFF.
+</div>
+<a name="iT03">
+</a>
+<br>
+<div class="topic_title">
+<b>
++B line open
+</b>
+</div>
+<br>
+<div>
+When the ignition switch is turned ON (II) and the immobilizer code is identified, the immobilizer indicator comes on for 2 seconds, then goes off.
+</div>
+<div>
+The immobilizer indicator goes off when the ignition switch is turned OFF.
+</div>
+<a name="iT04">
+</a>
+<br>
+<div class="topic_title">
+<b>
+Immobilizer indicator does not come on
+</b>
+</div>
+<br>
+<div>
+If the immobilizer indicator does not come on when the ignition switch is turned ON (II), check for an open in the wire shown:
+</div>
+<ul type="disc">
+<li>
+<div>
+Check for continuity of the keyless converter unit IG1 and IG2 line.
+</div>
+</li>
+<li>
+<div>
+Check for continuity between the immobilizer control unit-receiver and the gauge control module (IMOLMP line).
+</div>
+</li>
+<li>
+<div>
+Check for continuity between the keyless converter unit and body ground.
+</div>
+</li>
+</ul>
+<a name="iT05">
+</a>
+<br>
+<div class="topic_title">
+<b>
+Immobilizer indicator does not go off
+</b>
+</div>
+<br>
+<div>
+If the immobilizer indicator does not go off after the ignition switch is turned ON (II), check for a short to ground in the immobilizer circuit between the gauge control module and the immobilizer control unit-receiver (IMOLMP line).
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<span style="display:block" id="imgDispId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG02">
+</a>
+<div class="servinfosub_title">
+<b>
+Symptom troubleshooting of an open power supply and ground circuit
+</b>
+</div>
+<div>
+If a malfunction occurs in the immobilizer circuit for the +B, IG and GND (LG) lines, identify the lines to check with this table.
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+<div>
+<span style="display:block" id="imgDispId">
+<a href="javascript:PrtProc('0','ZOOM000000000001616','1');">
+<img src="../tn/SJA7E00J46636200000BAAD01.png">
+</a>
+</span>
+</div>
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="imgPrtId">
+<table width="100%" class="Viewer">
+<tr>
+<td width="100%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG02">
+</a>
+<div class="servinfosub_title">
+<b>
+Symptom troubleshooting of an open power supply and ground circuit
+</b>
+</div>
+<div>
+If a malfunction occurs in the immobilizer circuit for the +B, IG and GND (LG) lines, identify the lines to check with this table.
+</div>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" id="graphTd" valign="top">
+<span style="display:block" id="imgId1">
+<div>
+<span style="display:none" id="prePageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+<script src="../js/SJA7E00J46636200000BAAD01_1.js">
+</script>
+<span style="display:none" id="postPageId">
+<div style="page-break-after:always;">
+</div>
+</span>
+</div>
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" class="ViewerTD" valign="top">
+</td>
+</tr>
+</table>
+</span>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG03">
+</a>
+<div class="servinfosub_title">
+<b>
+General check before Troubleshooting
+</b>
+</div>
+<div>
+Before troubleshooting the immobilizer system, check the following general points and solve any if applicable.
+</div>
+<ul type="disc">
+<li>
+<div>
+Battery is low; charge the battery fully, then troubleshoot the immobilizer system.
+</div>
+</li>
+<li>
+<div>
+Ignition key is not a genuine Honda/Acura part; use the Honda/Acura- approved key blank, then troubleshoot the immobilizer system.
+</div>
+</li>
+<li>
+<div>
+Key ring, or keys, or a key case is used; remove the key from it, and troubleshoot the immobilizer system with a key only.
+</div>
+</li>
+<li>
+<div>
+Aftermarket electrical part is attached; remove it, then troubleshoot the immobilizer system.
+</div>
+</li>
+</ul>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<a name="iG04">
+</a>
+<div class="servinfosub_title">
+<b>
+How to Troubleshoot
+</b>
+</div>
+<div>
+Connect the HDS to the data link connector, then turn the ignition switch ON (II) with the built-in key.
+</div>
+<div>
+Check the Status Check with the HDS.
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

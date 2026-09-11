@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:1007px;\" coordsize=\"950,1007\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:1007px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA7E40J14235000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1007px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:430px;top:15px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>MICROPHONE<br>(Built into the roof console)<br><a href=\"javascript:CtsProc('0','000000000001623','i000')\"></b>Removal/Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:478px;top:684px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>DISPLAY UNIT<br><a href=\"javascript:CtsProc('0','000000000000597','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:729px;top:548px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>HANDS FREE TELEPHONE<br>CONTROL UNIT<br><a href=\"javascript:CtsProc('0','000000000001765','iG03')\"></b>Self-diagnostic Function,<br></a><br><a href=\"javascript:CtsProc('0','000000000001622','i000')\">Input Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:106px;top:676px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>MULTI-INFORMATION<br>DISPLAY (MID)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:206px;top:247px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>HFT VOLUME<br>(Using audio unit volume knob)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:301px;top:771px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>AUDIO UNIT<br><a href=\"javascript:CtsProc('0','000000000002237','i000')\"></b>Connector Inputs and Outputs,</a><br><a href=\"javascript:CtsProc('0','000000000000393','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:12px;top:727px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>HFT-VOICE CONTROL SWITCH<br><a href=\"javascript:CtsProc('0','000000000000406','i000')\"></b>Test,</a><br><a href=\"javascript:CtsProc('0','000000000000406','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:312px;top:943px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>NAVIGATION UNIT (in trunk)<br><a href=\"javascript:CtsProc('0','000000000000600','i000')\"></b>Removal/Installation,</a><br><a href=\"javascript:CtsProc('0','000000000001207','i000')\">Symptom Troubleshooting,</a><br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

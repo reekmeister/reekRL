@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group16\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:623px;\" coordsize=\"950,623\">");
+write("<v:rect id=\"rect16\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:623px;\">");
+write("<img id=\"img16\" name=\"PrtImgId\" src=\"../img/SJA9EF5A20300000000DBAD16.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:623px;border-color:#ffffff\">");
+write("<p id=\"p16_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:380px;top:397px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>FUEL PUMP<br>(8)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:59px;top:231px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>SECONDARY FUEL GAUGE<br>SENDING UNIT<br>(4)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:683px;top:397px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>20P CONNECTOR<br>(9)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:361px;top:231px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>14P CONNECTOR<br>(5)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:53px;top:397px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>FUEL PUMP CONTROL MODULE<br>(7)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:63px;top:70px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>PASSENGER'S UNDER-DASH <br>FUSE/RELAY BOX <br>(1)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:426px;top:70px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>POP-HOOD UNIT <br>(2)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:741px;top:70px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>12P JUNCTION <br>CONNECTOR<br>(3)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:694px;top:231px;font-weight:normal;font-size:7.41pt;\">");
+write("<nobr><b>NAVIGATION UNIT B <br>(6)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:17px;top:548px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b></b>NOTE:<br>· Connector with male terminals (double outline): view from terminal side<br>· Connector with female terminals (single outline): view from wire side<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

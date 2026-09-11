@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:799px;\" coordsize=\"950,799\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:799px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA9EERA14400065091KBAD04.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:799px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:437px;top:750px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>O-RING<br></b>Replace.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:702px;top:651px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>O-RING<br></b>Replace.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:662px;top:17px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>8 x 1.25 mm<br>22 N·m<br>(2.2 kgf·m, 16 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:277px;top:268px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>GASKETS<br></b>Replace.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:661px;top:170px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>O-RING<br></b>Replace.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:811px;top:278px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>WATER PASSAGE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:293px;top:101px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>EXHAUST GAS<br>RECIRCULATION<br>(EGR) VALVE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:661px;top:110px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>ENGINE COOLANT<br>TEMPERATURE (ECT) SENSOR 1<br>12 N·m (1.2 kgf·m, 8.8 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:734px;top:376px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>8 x 1.25 mm<br>22 N·m<br>(2.2 kgf·m, 16 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:623px;top:564px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>CONNECTING PIPE<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

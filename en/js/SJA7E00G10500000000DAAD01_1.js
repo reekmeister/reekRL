@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:831px;\" coordsize=\"950,831\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:831px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA7E00G10500000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:831px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:309px;top:697px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>A/C COMPRESSOR<br><a href=\"javascript:CtsProc('0','000000000000282','i000')\"></b>Replacement,</a><br><a href=\"javascript:CtsProc('0','000000000000283','i000')\">Clutch Check,</a><br><a href=\"javascript:CtsProc('0','000000000000284','i000')\">Clutch Overhaul,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:714px;top:589px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>RECEIVER/DRYER DESICCANT<br><a href=\"javascript:CtsProc('0','000000000000276','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:642px;top:665px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>A/C CONDENSER<br><a href=\"javascript:CtsProc('0','000000000000287','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:504px;top:81px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>EVAPORATOR CORE<br>(Located-in the heater unit)<br><a href=\"javascript:CtsProc('0','000000000000288','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:438px;top:19px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>SERVICE VALVE<br>(LOW-PRESSURE SIDE)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:209px;top:50px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>SERVICE VALVE<br>(HIGH-PRESSURE SIDE)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:130px;top:656px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>SIGHT GLASS<br>(RHD type)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:1px;top:799px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b></b>LHD type is shown, RHD type is similar.<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

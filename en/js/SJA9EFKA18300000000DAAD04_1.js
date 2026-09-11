@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group3\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:1071px;\" coordsize=\"950,1071\">");
+write("<v:rect id=\"rect3\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:1071px;\">");
+write("<img id=\"img3\" name=\"PrtImgId\" src=\"../img/SJA9EFKA18300000000DAAD04.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1071px;border-color:#ffffff\">");
+write("<p id=\"p3_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:756px;top:173px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>PISTON RINGS<br><a href=\"javascript:CtsProc('0','000000000003501','i000')\"></b>Replacement,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:716px;top:287px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>SNAP RINGS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:700px;top:325px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>PISTON<br><a href=\"javascript:CtsProc('0','000000000003494','i000')\"></b>Removal,</a><br><a href=\"javascript:CtsProc('0','000000000002522','i000')\">Measurement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:653px;top:397px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>CONNECTING ROD<br><a href=\"javascript:CtsProc('0','000000000000066','i000')\"></b>End Play,</a><br> in the Shop Manual, P/N 62SJA00A<br><a href=\"javascript:CtsProc('0','000000000003498','iR02')\">Small End Measurement,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:192px;top:319px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>PISTON PIN<br><a href=\"javascript:CtsProc('0','000000000003498','iR01')\"></b>Removal,</a><br><a href=\"javascript:CtsProc('0','000000000003498','iR02')\">Inspection,</a><br><a href=\"javascript:CtsProc('0','000000000003498','iR03')\">Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:531px;top:820px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>ENGINE BLOCK<br><a href=\"javascript:CtsProc('0','000000000002522','i000')\"></b>Cylinder Bore Inspection,</a><br><a href=\"javascript:CtsProc('0','000000000002522','i000')\">Warpage Inspection,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:283px;top:913px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>CONNECTING ROD BEARING<br><a href=\"javascript:CtsProc('0','000000000003493','iR01')\"></b>Oil Clearance,</a><br><a href=\"javascript:CtsProc('0','000000000003493','iR02')\">Selection,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:235px;top:983px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>CONNECTING ROD BEARING CAP<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:31px;top:1027px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>CONNECTING ROD BOLTS<br><a href=\"javascript:CtsProc('0','000000000003495','i150')\"></b>Inspection,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:643px;top:508px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>CONNECTING ROD BEARING<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

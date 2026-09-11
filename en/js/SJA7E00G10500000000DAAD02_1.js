@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group2\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:1055px;\" coordsize=\"950,1055\">");
+write("<v:rect id=\"rect2\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:1055px;\">");
+write("<img id=\"img2\" name=\"PrtImgId\" src=\"../img/SJA7E00G10500000000DAAD02.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1055px;border-color:#ffffff\">");
+write("<p id=\"p2_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:131px;top:877px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>A/C PRESSURE SENSOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:749px;top:394px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>RADIATOR FAN CONTROL <br>(RFC) UNIT RELAY<br><a href=\"javascript:CtsProc('0','000000000002244','iR02')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p2_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:453px;top:275px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>BLOWER MOTOR RELAY<br><a href=\"javascript:CtsProc('0','000000000002244','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p2_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:203px;top:355px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>A/C COMPRESSOR CLUTCH RELAY<br><a href=\"javascript:CtsProc('0','000000000002244','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p2_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:540px;top:18px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>UNDER-HOOD <br>FUSE/RELAY BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:650px;top:144px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>AUXILIARY UNDER-HOOD RELAY BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:651px;top:844px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>OUTSIDE AIR TEMPERATURE SENSOR<br><a href=\"javascript:CtsProc('0','000000000000310','i000')\"></b>Test,</a><br><a href=\"javascript:CtsProc('0','000000000000311','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p2_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:577px;top:916px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>RADIATOR FAN<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:409px;top:966px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>A/C CONDENSER FAN<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:1px;top:1025px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b></b>LHD type is shown, RHD type is similar.<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:475px; height:320px;\" coordsize=\"475,320\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:475px;height:320px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJA7E1RJ36200000000FEAD23.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:320px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:124px;top:65px;font-weight:normal;font-size:8.97pt;\">");
+write("<nobr><b>GPS Information<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:343px;top:64px;font-weight:normal;font-size:8.97pt;\">");
+write("<nobr><b>Return<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:63px;top:119px;font-weight:normal;font-size:8.97pt;\">");
+write("<nobr><b>Number of Satellites<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:376px;top:228px;font-weight:normal;font-size:6.42pt;\">");
+write("<nobr><b>In Use<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:376px;top:242px;font-weight:normal;font-size:6.42pt;\">");
+write("<nobr><b>Search<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:63px;top:163px;font-weight:normal;font-size:8.97pt;\">");
+write("<nobr><b>Current Position<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:80px;top:182px;font-weight:normal;font-size:8.97pt;\">");
+write("<nobr><b>Latitude: Nxx°xx'xx”<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:79px;top:219px;font-weight:normal;font-size:8.97pt;\">");
+write("<nobr><b>Elevation: xxx feet<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:80px;top:200px;font-weight:normal;font-size:8.97pt;\">");
+write("<nobr><b>Longitude: Wxxx°xx'xx”<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:73px;top:239px;font-weight:normal;font-size:8.97pt;\">");
+write("<nobr><b>xxxx.xx.xx  xx:xx:xx<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

@@ -1,0 +1,191 @@
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="author" content="HONDA MOTOR Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>(
+SJA7E00J26351543881FEAT00
+)</title>
+<script>
+<!--
+var bufCookie = new Array;
+var strKey,strVal;
+var nPos=0;
+var strPara = location.href.split("?")[1];
+if((typeof(strPara) == "undefined") || (strPara == null)){
+	bufCookie = document.cookie.split(";");
+	while (nPos < bufCookie.length) {
+		strKey = bufCookie[nPos].split("=")[0];
+		strVal = bufCookie[nPos].split("=")[1];
+		if(strKey == "CurrentYearType"){
+			strPara = strVal;
+			break;
+		}
+		nPos++;
+	}
+}
+if((typeof(strPara) != "undefined") && (strPara != null)){
+	document.title = strPara + document.title;
+	document.cookie = "CurrentYearType="+strPara+";";
+	var strUrl = location.href.split("?")[0];
+	if(strUrl != location.href) {
+		location.replace(strUrl);
+	}
+}
+function CtsProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Cts(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Cts(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Cts(Key,strData);
+	}
+	else {
+		parent.Cts(Key,strData);
+	}
+}
+
+function PrtProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Prt(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Prt(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Prt(Key,strData);
+	}
+	else {
+		parent.Prt(Key,strData);
+	}
+}
+-->
+</script>
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<style>
+	v\:*	{ behavior: url(#default#VML); }
+	.drag	{ position: relative; cursor:   hand; }
+</style>
+</head>
+<script>
+<!--
+var load_flag = false;
+function onLoadProc() {
+	parent.Old(this);
+	load_flag = true;
+}
+-->
+</script>
+<script src="../js/PrinterSize.js"></script>
+<script src="../js/StandardPrintFunc.js"></script>
+<body onload="javascript:onLoadProc()" style="font-family:sans-serif;">
+<div xmlns:v="urn:schemas-microsoft-com:vml">
+<div class="top_title">
+Multi-information Display Outside Air Temperature Indicator Calibration
+</div>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<div>
+NOTE: 
+<a href="javascript:CtsProc('0','000000000000310','i000')">
+To test the outside air temperature sensor.
+</a>
+</div>
+<a name="iR01">
+</a>
+<div class="procedure_sub_title">
+<b>
+Description
+</b>
+</div>
+<div>
+The outside temperature sensor is located behind the center of the front bumper. The gauge control module uses measurements from this sensor to display the outside air temperature.
+</div>
+<div>
+Because of the location of the sensor, it may be affected by heat reflection from the road, engine and radiator heat, or hot exhaust from surrounding traffic.
+</div>
+<div>
+These conditions can heat soak the outside air temperature sensor and cause inaccurate readings. Logic has been written into the gauge control module to help prevent abnormal of fluctuating outside air temperature indicator readings.
+</div>
+<a name="iR02">
+</a>
+<div class="procedure_sub_title">
+<b>
+Outside Air Temperature Indicator Logic
+</b>
+</div>
+<div>
+Initial outside air temperature indication after the ignition switch is turned ON (II).
+</div>
+<div>
+If the engine coolant temperature is 60 °C (140 °F) or higher when the ignition switch is turned ON (II), the outside air temperature indicated the last time the key was turned off will be displayed regardless of the current temperature measured by the outside air temperature sensor.
+</div>
+<div>
+If the engine coolant temperature is 59 °C (139 °F) or lower when the ignition switch is turned ON (II), the current temperature measured by the outside air temperature sensor will be indicated.
+</div>
+<a name="iR03">
+</a>
+<div class="procedure_sub_title">
+<b>
+Update to the outside air temperature indicator while driving
+</b>
+</div>
+<div>
+If the temperature measured by the outside air temperature sensor is greater than the temperature on the outside air temperature indicator, the outside temperature indicator will increase by 1 °C (1 °F) per minute after the vehicle speed is greater than 30 km/h (19 mph) for more than 30 seconds. It will continue to increase until the current outside air temperature is indicated. So, the first change to the outside air temperature indicator is 1 minute and 30 seconds after the vehicle speed is greater than 30 km/h (19 mph). If the vehicle speed drops below 30 km/h (19 mph), the indicator will not update again until the vehicle speed is increased to 30 km/h (19 mph) or more for more than 1 minute and 30 seconds again.
+</div>
+<div>
+If the outside air temperature is less than 60 °C (140 °F), the temperature increases 1 °C (1 °F) every 2 seconds until the current outside air temperature.
+</div>
+<div>
+If the outside air temperature is less than the indicated temperature, the temperature will decrease 1 °C (1 °F) every 2 seconds until the current outside air temperature is indicated regardless of vehicle speed.
+</div>
+<a name="iR04">
+</a>
+<div class="procedure_sub_title">
+<b>
+Troubleshooting
+</b>
+</div>
+<div>
+If the indicator displays ‘‘— — —'' for more than 2 seconds after selecting the outside air temperature display mode, check the climate control system and B-CAN DTCs.
+</div>
+<a name="iR05">
+</a>
+<div class="procedure_sub_title">
+<b>
+Calibration
+</b>
+</div>
+<div>
+The outside air temperature indicator's displayed temperature can be recalibrated ±3 °C or ±5 °F to meet the customer's expectations.
+</div>
+<div>
+Calibrate the outside air temperature with the HDS or by custom memory setting.
+</div>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

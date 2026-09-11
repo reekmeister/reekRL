@@ -1,0 +1,566 @@
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="author" content="HONDA MOTOR Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>(
+SJA9EEBK77100090171FAAT00
+)</title>
+<script>
+<!--
+var bufCookie = new Array;
+var strKey,strVal;
+var nPos=0;
+var strPara = location.href.split("?")[1];
+if((typeof(strPara) == "undefined") || (strPara == null)){
+	bufCookie = document.cookie.split(";");
+	while (nPos < bufCookie.length) {
+		strKey = bufCookie[nPos].split("=")[0];
+		strVal = bufCookie[nPos].split("=")[1];
+		if(strKey == "CurrentYearType"){
+			strPara = strVal;
+			break;
+		}
+		nPos++;
+	}
+}
+if((typeof(strPara) != "undefined") && (strPara != null)){
+	document.title = strPara + document.title;
+	document.cookie = "CurrentYearType="+strPara+";";
+	var strUrl = location.href.split("?")[0];
+	if(strUrl != location.href) {
+		location.replace(strUrl);
+	}
+}
+function CtsProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Cts(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Cts(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Cts(Key,strData);
+	}
+	else {
+		parent.Cts(Key,strData);
+	}
+}
+
+function PrtProc(Type,Key,Anc) {
+	var  strData;
+	strData = Anc
+	if((typeof(strPara) != "undefined") && (strPara != null)){
+		strData += '?'+strPara
+	}
+	if(Type == '0') {
+		parent.Prt(Key,strData);
+	}
+	else if(Type == '1') {
+		parent.parent.Prt(Key,strData);
+	}
+	else if(Type == '2') {
+		opener.top.Prt(Key,strData);
+	}
+	else {
+		parent.Prt(Key,strData);
+	}
+}
+-->
+</script>
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<style>
+	v\:*	{ behavior: url(#default#VML); }
+	.drag	{ position: relative; cursor:   hand; }
+</style>
+</head>
+<script>
+<!--
+var load_flag = false;
+function onLoadProc() {
+	parent.Old(this);
+	load_flag = true;
+}
+-->
+</script>
+<script src="../js/PrinterSize.js"></script>
+<script src="../js/StandardPrintFunc.js"></script>
+<body onload="javascript:onLoadProc()" style="font-family:sans-serif;">
+<div xmlns:v="urn:schemas-microsoft-com:vml">
+<div class="top_title">
+DTC Troubleshooting: P0171 (153), P0172 (153), P0174 (154), P0175 (154)
+</div>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<b>
+DTC P0171:
+</b>
+<div>
+ Rear Bank (Bank 1) Fuel System Too Lean
+</div>
+<b>
+DTC P0172:
+</b>
+<div>
+ Rear Bank (Bank 1) Fuel System Too Rich 
+</div>
+<b>
+DTC P0174:
+</b>
+<div>
+ Front Bank (Bank 2) Fuel System Too Lean
+</div>
+<b>
+DTC P0175:
+</b>
+<div>
+ Front Bank (Bank 2) Fuel System Too Rich 
+</div>
+<div>
+NOTE:
+</div>
+<ul type="disc">
+<li>
+<div>
+Before you troubleshoot, record all freeze data and any on-board snapshot, and 
+<a href="javascript:CtsProc('0','000000000002939','i000')">
+review the general troubleshooting information.
+</a>
+</div>
+</li>
+<li>
+<div>
+If some of the DTCs listed below are stored at the same time as DTC P0171, P0172, P0174, and/or P0175, troubleshoot those DTCs first, then recheck for P0171, P0172, P0174, and/or P0175.
+</div>
+<div>
+P0101, P0102, P0103: Mass air flow (MAF) sensor
+</div>
+<div>
+P0107, P0108, P1128, P1129: Manifold absolute pressure (MAP) sensor
+</div>
+<div>
+P0133, P0153, P1172, P1174, P2195, P2197, P2237, P2238, P2240, P2241, P2243, P2245, P2247, P2249, P2251, P2252, P2254, P2255, P2A00, P2A03: Air fuel ratio (A/F) sensor (Sensor 1)
+</div>
+<div>
+P0134, P0135, P0154, P0155: Air fuel ratio (A/F) sensor (Sensor 1) heater
+</div>
+<div>
+P0137, P0138, P0139, P0157, P0158, P0159, P2270, P2271, P2272, P2273: Secondary HO2S (Sensor 2)
+</div>
+<div>
+P0141, P0161: Secondary HO2S (Sensor 2) heater
+</div>
+<div>
+P2646, P2647, P2648, P2649: VTEC system
+</div>
+<div>
+P0401, P0404, P0406, P2413: Exhaust gas recirculation (EGR) system
+</div>
+<div>
+P2279: Intake air leakage
+</div>
+</li>
+</ul>
+<a name="i010">
+</a>
+<ol>
+<li value="1">
+<div>
+<a href="javascript:CtsProc('0','000000000002545','i000')">
+Check the fuel pressure.
+</a>
+</div>
+</li>
+</ol>
+<table class="Viewer" frame="void" style="margin-left:40px;">
+<tr>
+<td class="ViewerTD">
+<i>
+<div>
+<i>
+Is the fuel pressure OK?
+</i>
+</div>
+</i>
+</td>
+</tr>
+</table>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i020')">Step 2
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Check these items:
+</div>
+<ul type="disc">
+<li>
+<div>
+If the pressure is too high, 
+<a href="javascript:CtsProc('0','000000000002554','i000')">
+replace the fuel pressure regulator,
+</a>
+ then go to 
+<a href="javascript:parent.Jmp('i020')">Step 2
+</a>
+.
+</div>
+</li>
+<li>
+<div>
+If the pressure is too low, check the fuel pump, the fuel pressure regulator, the fuel filter, and the fuel lines for restrictions, then go to 
+<a href="javascript:parent.Jmp('i060')">Step 6
+</a>
+.
+</div>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+<a name="i020">
+</a>
+<ol>
+<li value="2">
+<div>
+Start the engine. Hold the engine speed at 3,000 rpm (min
+<sup>
+−1
+</sup>
+) without load (in P or N) until the radiator fan comes on, then let it idle.
+</div>
+</li>
+</ol>
+<a name="i030">
+</a>
+<ol>
+<li value="3">
+<div>
+Check for these conditions:
+</div>
+<ul type="disc">
+<li>
+<div>
+Engine coolant temperature (ECT SENSOR 1) above 70 °C (158 °F)
+</div>
+</li>
+<li>
+<div>
+Transmission in P or N
+</div>
+</li>
+<li>
+<div>
+All electrical loads off
+</div>
+</li>
+</ul>
+</li>
+</ol>
+<a name="i040">
+</a>
+<ol>
+<li value="4">
+<div>
+Monitor the ENGINE SPEED in the DATA LIST with the HDS, and hold the engine speed at 2,500 rpm (min
+<sup>
+−1
+</sup>
+). Once the engine speed is met, hold the accelerator pedal steady for more than 10 seconds.
+</div>
+</li>
+</ol>
+<table class="Viewer" frame="void" style="margin-left:40px;">
+<tr>
+<td class="ViewerTD">
+<i>
+<div>
+<i>
+Did the engine speed vary more than 100 rpm (min
+<sup>
+−1
+</sup>
+) from 2,500 rpm (min
+<sup>
+−1
+</sup>
+)?
+</i>
+</div>
+</i>
+</td>
+</tr>
+</table>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Repeat step 4.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i050')">Step 5
+</a>
+.
+</div>
+</td>
+</tr>
+</table>
+<a name="i050">
+</a>
+<ol>
+<li value="5">
+<div>
+While holding the engine speed at 2,500 rpm (min
+<sup>
+−1
+</sup>
+), check the MAF SENSOR in the DATA LIST with the HDS.
+</div>
+</li>
+</ol>
+<table class="Viewer" frame="void" style="margin-left:40px;">
+<tr>
+<td class="ViewerTD">
+<i>
+<div>
+<i>
+Is there about 9.1−12.9 gm/s?
+</i>
+</div>
+</i>
+</td>
+</tr>
+</table>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+<a href="javascript:CtsProc('0','000000000002517','i000')">
+Check the engine valve clearances, and adjust them if necessary.
+</a>
+ 
+<a href="javascript:CtsProc('0','000000000002567','i000')">
+If the valve clearances are OK, replace the injectors,
+</a>
+ then go to 
+<a href="javascript:parent.Jmp('i060')">Step 6
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+<a href="javascript:CtsProc('0','000000000002570','i000')">
+Replace the MAF sensor/IAT sensor,
+</a>
+ then go to 
+<a href="javascript:parent.Jmp('i060')">Step 6
+</a>
+.
+</div>
+</td>
+</tr>
+</table>
+<a name="i060">
+</a>
+<ol>
+<li value="6">
+<div>
+Turn the ignition switch to ON (II).
+</div>
+</li>
+</ol>
+<a name="i070">
+</a>
+<ol>
+<li value="7">
+<div>
+Reset the PCM with the HDS.
+</div>
+</li>
+</ol>
+<a name="i080">
+</a>
+<ol>
+<li value="8">
+<div>
+<a href="javascript:CtsProc('0','000000000002574','i000')">
+Do the PCM idle learn procedure.
+</a>
+</div>
+</li>
+</ol>
+<a name="i090">
+</a>
+<ol>
+<li value="9">
+<div>
+Start the engine. Hold the engine speed at 3,000 rpm (min
+<sup>
+−1
+</sup>
+) without load (in P or N) until the radiator fan comes on, then let it idle.
+</div>
+</li>
+</ol>
+<a name="i100">
+</a>
+<ol>
+<li value="10">
+<div>
+Test-drive under these conditions:
+</div>
+<ul type="disc">
+<li>
+<div>
+Engine coolant temperature (ECT SENSOR 1) above 70 °C (158 °F)
+</div>
+</li>
+<li>
+<div>
+Transmission in D
+</div>
+</li>
+<li>
+<div>
+Drive at a steady speed between 24−120 km/h (15−75 mph) for 15 minutes.
+</div>
+</li>
+</ul>
+<div>
+NOTE: DTC P0171, P0172, P0174, and/or P0175 may take up to 80 minutes of test driving to set. Using the HDS, monitor the long term fuel trim (LT FUEL TRIM). If the LT FUEL TRIM stays within 0.8−1.21, there is no problem at this time.
+</div>
+</li>
+</ol>
+<a name="i110">
+</a>
+<ol>
+<li value="11">
+<div>
+Check for Temporary DTCs or DTCs with the HDS.
+</div>
+</li>
+</ol>
+<table class="Viewer" frame="void" style="margin-left:40px;">
+<tr>
+<td class="ViewerTD">
+<i>
+<div>
+<i>
+Is DTC P0171, P0172, P0174, or P0175 indicated?
+</i>
+</div>
+</i>
+</td>
+</tr>
+</table>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i010')">Step 1
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Troubleshooting is complete. If any other Temporary DTCs or DTCs are indicated, go to the indicated DTC's troubleshooting.■
+</div>
+</td>
+</tr>
+</table>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

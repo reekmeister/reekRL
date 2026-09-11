@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:655px;\" coordsize=\"950,655\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:655px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SJAAECR0000000K0031BAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:655px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:155px;top:17px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>PASSENGER AIRBAG MODULE DANGER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:722px;top:18px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>SRS WARNING INFORMATION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:675px;top:462px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>SIDE AIRBAG MODULE DANGER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:637px;top:567px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>FRONT SEAT BELT TENSIONER CAUTION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:339px;top:612px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>FRONT SEAT BELT OUTER LAP<br>TENSIONER CAUTION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:223px;top:560px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>MONITOR NOTICE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:63px;top:494px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>STEERING COLUMN NOTICE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:723px;top:197px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>SRS WARNING INFORMATION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:723px;top:265px;font-weight:normal;font-size:8.68pt;\">");
+write("<nobr><b>PASSENGER AIRBAG <br>CHILD SEAT CAUTION<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

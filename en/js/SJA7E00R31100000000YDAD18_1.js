@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group2\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:1023px;\" coordsize=\"950,1023\">");
+write("<v:rect id=\"rect2\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:1023px;\">");
+write("<img id=\"img2\" name=\"PrtImgId\" src=\"../img/SJA7E00R31100000000YDAD18.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1023px;border-color:#ffffff\">");
+write("<p id=\"p2_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:188px;top:75px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>OUTRIGGER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:707px;top:570px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>INSIDE SILL<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:666px;top:911px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>SIDE FRAME<br>REAR END<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:717px;top:87px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>SUBFRAME REAR<br>BRACKET<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:726px;top:722px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>FLOOR FRAME<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:654px;top:492px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>OUTRIGGER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:295px;top:404px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>SIDE FRAME REAR END<br></b>Drill the spot welded point (A) from<br>under side of the dashboard lower. <br></nobr>");
+write("</p>");
+write("<p id=\"p2_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:168px;top:795px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>SUBFRAME REAR<br>BRACKET<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:446px;top:964px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>MOUNTING BOLTS<br>8 x 1.25 mm <br>22 N·m (2.2 kgf·m, 16 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:377px;top:256px;font-weight:normal;font-size:8.69pt;\">");
+write("<nobr><b>(A)<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}
